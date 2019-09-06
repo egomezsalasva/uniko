@@ -2944,6 +2944,681 @@ const MODEL_DB = [
     ///////////
     //// E ////
     ///////////
-
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Eder Barral",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 186,
+        bust: 100,
+        waist: 82,
+        hip: 92,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/ederaguirre86/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Edu Roman",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 184,
+        bust: 99,
+        waist: 82,
+        hip: 99,
+        shoe: 43,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/eduromann/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Eduard Domenech",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "light brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 190,
+        bust: 99,
+        waist: 77,
+        hip: 96,
+        shoe: 45,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/eduarddomenech/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Eduard Torres",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "dark brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 184,
+        bust: 102,
+        waist: 83,
+        hip: 98,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/eduardtorres7/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Elee Nova",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 177,
+        bust: 84,
+        waist: 62,
+        hip: 92,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/elee_nova_official/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Elise Vant Zand",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 180,
+        bust: 80,
+        waist: 60,
+        hip: 94,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/elisevantzand/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Eliza Musial",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 177,
+        bust: 81,
+        waist: 59,
+        hip: 87,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/eliza.musial/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Ema Brenkusova",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "grey blue",
+        //Measures Properties
+        height: 177,
+        bust: 83,
+        waist: 61,
+        hip: 87,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/emabrenkusova/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Emily Barbe",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 172,
+        bust: 80,
+        waist: 62,
+        hip: 92,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/mily_barbe/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Estel Castelló",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 174,
+        bust: 83,
+        waist: 66,
+        hip: 91,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/estelcastello/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Eva Perfido",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 176,
+        bust: 83,
+        waist: 62,
+        hip: 88,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/evaperfido/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Evy Markovits",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "green",
+        //Measures Properties
+        height: 176,
+        bust: 85,
+        waist: 64,
+        hip: 88,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/evymarkovits/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Ezequiel Sisterna",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: true,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "grey",
+        eyeColour: "blue green",
+        //Measures Properties
+        height: 184,
+        bust: 99,
+        waist: 77,
+        hip: 93,
+        shoe: 43,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/esdharmayoga/",
+    },
+    ///////////
+    //// E ////
+    ///////////
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Ezequiel Sisterna",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: true,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "grey",
+        eyeColour: "blue green",
+        //Measures Properties
+        height: 184,
+        bust: 99,
+        waist: 77,
+        hip: 93,
+        shoe: 43,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/esdharmayoga/",
+    },
+    
 ]
 
