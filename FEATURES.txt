@@ -1,0 +1,60 @@
+//TO DOS
+/////////
+
+---Home---
+- Footer
+- Slider
+- Media Phone
+
+
+---Menu---
+- Menu change logo state
+
+
+---All Models Modal---
+- Button Plus Black Modal with scroll click toggle
+
+
+///////
+//BUGS
+///////
+
+- Remove MouseLEave when Clicking on footer plus
+- Remove change of state when clicking Inicio in menu
+
+
+//FUTURE FEATURES
+/////////////////
+
+---Global---
+- Cursor follow ( view talent, view all models, view news, view menu )
+
+---Home---
+- All Models Modal Slideshow with alphabet links
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDE6qGNkvddSMz7PYopXNpYNVPSUnJ67Gg",
+    authDomain: "uniko-307b1.firebaseapp.com",
+    databaseURL: "https://uniko-307b1.firebaseio.com",
+    projectId: "uniko-307b1",
+    storageBucket: "",
+    messagingSenderId: "488102875182",
+    appId: "1:488102875182:web:82beb725fa86ec84"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
