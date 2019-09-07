@@ -4103,6 +4103,393 @@ const MODEL_DB = [
         instagramLink: null,
     },
     ///////////
+    //// I ////
+    ///////////
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Iñaki Benito",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "blonde",
+        eyeColour: "blue green",
+        //Measures Properties
+        height: 189,
+        bust: 103,
+        waist: 80,
+        hip: 98,
+        shoe: 45,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/inakibl/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Indira Toraní",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: true,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 179,
+        bust: 86,
+        waist: 60,
+        hip: 90,
+        shoe: 39.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/indiratorani/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Irene Lorenzon",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 178,
+        bust: 80,
+        waist: 60,
+        hip: 90,
+        shoe: 38.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/nenepuzzo",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Irina Soldevila",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 177,
+        bust: 88,
+        waist: 62,
+        hip: 90,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/irinasoldevila/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Isabel Rijk",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: true,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "green",
+        //Measures Properties
+        height: 178,
+        bust: 93,
+        waist: 73,
+        hip: 103,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/isabelbarbara/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Isabella De Candia",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 172,
+        bust: 83,
+        waist: 61,
+        hip: 88,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/isadeca/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Isadee Jansen",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: true,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 175,
+        bust: 103,
+        waist: 87,
+        hip: 114,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/isadeejansen/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Iskamella Risiomara",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: true,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "light brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 179,
+        bust: 102,
+        waist: 86,
+        hip: 118,
+        shoe: 42,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/iskamellawennekes/",
+    },
+    ///////////
     //// J ////
     ///////////
     //NEW MODEL
@@ -4828,7 +5215,55 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Jip Van Soest",
+        name: "Joan Pastor",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "light brown",
+        eyeColour: "hazel",
+        //Measures Properties
+        height: 189,
+        bust: 98,
+        waist: 85,
+        hip: 95,
+        shoe: 43,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/joan.pastor/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Joan Pedrola",
         intoductionDate: new Date(2019, 08, 22),
         newInIndustry: false,
         timeless: false,
@@ -4838,9 +5273,105 @@ const MODEL_DB = [
         hairColour: "light brown",
         eyeColour: "blue",
         //Measures Properties
-        height: 186,
-        bust: 104,
-        waist: 86,
+        height: 187,
+        bust: 100,
+        waist: 80,
+        hip: 103,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/joan_pedrola",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Jolanda Van Der Linden",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: true,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark blonde",
+        eyeColour: "green",
+        //Measures Properties
+        height: 177,
+        bust: 84,
+        waist: 65,
+        hip: 90,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: null,
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Jonas Rosenbauer",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 187,
+        bust: 100,
+        waist: 80,
         hip: 99,
         shoe: 44,
         //Photos
@@ -4871,8 +5402,876 @@ const MODEL_DB = [
             },
         ],
         //Links
-        instagramLink: "https://www.instagram.com/jipvansoest88/",
+        instagramLink: "https://www.instagram.com/btmln/",
     },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Jordi Rosello",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "light brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 188,
+        bust: 102,
+        waist: 82,
+        hip: 95,
+        shoe: 45,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/jordirosello_/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Jorge Roman",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 184,
+        bust: 99,
+        waist: 82,
+        hip: 99,
+        shoe: 43,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/jorgeroman.oficial/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Joyce Groen",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "green",
+        //Measures Properties
+        height: 178,
+        bust: 85,
+        waist: 65,
+        hip: 91,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/joyce__groen/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Judit Oms",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 173,
+        bust: 85,
+        waist: 60,
+        hip: 90,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: null,
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Juli Teres",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "light brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 168,
+        bust: 84,
+        waist: 60,
+        hip: 90,
+        shoe: 36,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/juliteres/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Julia Rath",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 178,
+        bust: 87,
+        waist: 58,
+        hip: 88,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/joules117/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Julie Beekman",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 176,
+        bust: 87,
+        waist: 62,
+        hip: 89,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/juliebeekman/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Julie Pallesen",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 174,
+        bust: 85,
+        waist: 64,
+        hip: 90,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/thisway_/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Julie Veldhuis",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 177,
+        bust: 82,
+        waist: 63,
+        hip: 82,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: null,
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Jurn Decleer",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: true,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "dark blonde",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 184,
+        bust: 101,
+        waist: 82,
+        hip: 98,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/jurn_decleer_jozef/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Justina Vazgauskaite",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "green",
+        //Measures Properties
+        height: 178,
+        bust: 87,
+        waist: 62,
+        hip: 93,
+        shoe: 41,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/justinav/",
+    },
+    ///////////
+    //// K ////
+    ///////////
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Karla Jorba",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: true,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 176,
+        bust: 85,
+        waist: 63,
+        hip: 85,
+        shoe: 41,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/karlajorba/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Katarina Nemcova",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 175,
+        bust: 81,
+        waist: 62,
+        hip: 89,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/katarinanemcova/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Katharina Siekmann",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "green",
+        //Measures Properties
+        height: 177,
+        bust: 85,
+        waist: 58,
+        hip: 88,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/katharina_siekmann/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Kevin Pabel",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "blonde",
+        eyeColour: "blue green",
+        //Measures Properties
+        height: 188,
+        bust: 101,
+        waist: 81,
+        hip: null,
+        shoe: 43.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/kevin_pabel/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Khalil Saidane",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 183,
+        bust: 99,
+        waist: 77,
+        hip: 97,
+        shoe: 42,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/monkey.businessz/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Kim Daria",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 178,
+        bust: 83,
+        waist: 63,
+        hip: 89,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/kimdariaa/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Kristina Cincurova",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark blonde",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 181,
+        bust: 85,
+        waist: 63,
+        hip: 90,
+        shoe: 39.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/kristinacincurova/",
+    },
+    
 
 ]
 
