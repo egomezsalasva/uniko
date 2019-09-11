@@ -6271,7 +6271,1741 @@ const MODEL_DB = [
         //Links
         instagramLink: "https://www.instagram.com/kristinacincurova/",
     },
-    
+    ///////////
+    //// L ////
+    ///////////
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lachelle Dechesne",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 181,
+        bust: 83,
+        waist: 63,
+        hip: 93,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/lachelledechesne",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lara Leijs",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "hazel",
+        //Measures Properties
+        height: 175,
+        bust: 83,
+        waist: 63,
+        hip: 95,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/laraleijs/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Laura Lundgreen",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "light blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 175,
+        bust: 81,
+        waist: 62,
+        hip: 90,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/laura_lundgreen/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lautaro Garcia",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 184,
+        bust: 97,
+        waist: 78,
+        hip: 95,
+        shoe: 42,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/lautigdlp/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Léa Bonneau",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "light brown",
+        eyeColour: "grey",
+        //Measures Properties
+        height: 172,
+        bust: 79,
+        waist: 60,
+        hip: 87,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/leabonleabon/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Leonie Scheunemann",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 180,
+        bust: 86,
+        waist: 62,
+        hip: 89,
+        shoe: 41,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/leonie.kim",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Leonie Scheunemann",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 180,
+        bust: 86,
+        waist: 62,
+        hip: 89,
+        shoe: 41,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/leonie.kim",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Liam Du Plessis",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 185,
+        bust: 97,
+        waist: 83,
+        hip: null,
+        shoe: 44.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/liam_du_plessis16/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Liam Du Plessis",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 185,
+        bust: 97,
+        waist: 83,
+        hip: null,
+        shoe: 44.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/liam_du_plessis16/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lisa Weggemans",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "green grey",
+        //Measures Properties
+        height: 175,
+        bust: 74,
+        waist: 60,
+        hip: 86,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/lisaelaineweggemans",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lize Romer",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 174,
+        bust: 84,
+        waist: 59,
+        hip: 91,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/lizeromer",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lloyd Bartis",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 187,
+        bust: 100,
+        waist: 84,
+        hip: null,
+        shoe: 45.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/lloydbartis/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lukas Hoffmann",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 189,
+        bust: 98,
+        waist: 79,
+        hip: null,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/lukas_hof/",
+    },
+    ///////////
+    //// M ////
+    ///////////
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Magda Cernakova",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "light brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 175,
+        bust: 82,
+        waist: 62,
+        hip: 90,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/magdi_c/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Maia Cassani",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 172,
+        bust: 81,
+        waist: 62,
+        hip: 87,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/maiacassani/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Maia Cassani",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 172,
+        bust: 81,
+        waist: 62,
+        hip: 87,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/maiacassani/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Maja Wroblewska",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 175,
+        bust: 79,
+        waist: 59,
+        hip: 88,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/maja.wrob/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Malijn Pieterse",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 176,
+        bust: 78,
+        waist: 60,
+        hip: 89,
+        shoe: 38.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/malijnpieterse/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Marc Jourdan",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "black",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 186,
+        bust: 98,
+        waist: 79,
+        hip: 98,
+        shoe: 45,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/marcandrejourdan/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Marcel Glaser",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 186,
+        bust: 96,
+        waist: 75,
+        hip: 94,
+        shoe: 43,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/marcelglaser_/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Marcos Estevez",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 181,
+        bust: 98,
+        waist: 79,
+        hip: 95,
+        shoe: 42,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/med0782/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Maria Leiva",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 173,
+        bust: 85,
+        waist: 64,
+        hip: 86,
+        shoe: 39.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/marialeivab/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Marijke Versluijs",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 177,
+        bust: 85,
+        waist: 66,
+        hip: 92,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/marijkeversluijs/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Mario Zabal",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 184,
+        bust: 100,
+        waist: 80,
+        hip: 102,
+        shoe: 45,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/mariozabal_/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Marius Hordijk",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 187,
+        bust: 97,
+        waist: 76,
+        hip: null,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/mariushordijk/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Marlies Smedinga",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "blue green",
+        //Measures Properties
+        height: 181,
+        bust: 85,
+        waist: 65,
+        hip: 92,
+        shoe: 40,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/marliessmedinga",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Martina Werner",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 173,
+        bust: 89,
+        waist: 68,
+        hip: 90,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/_martina.werner_/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Mateo Moreno",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "light brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 190,
+        bust: 95,
+        waist: 80,
+        hip: 98,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/teomoreno/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Matteo Murer",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 188,
+        bust: 97,
+        waist: 78,
+        hip: 96,
+        shoe: 45,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/teomoreno/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Matti Ceulemans",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 184,
+        bust: 96,
+        waist: 74,
+        hip: 94,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/matti_ceulemans/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Maximiliano Casedei",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "blonde",
+        eyeColour: "blue green",
+        //Measures Properties
+        height: 187,
+        bust: 98,
+        waist: 84,
+        hip: 95,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/casadeimaximiliano/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Meli Nunzi",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 166,
+        bust: 84,
+        waist: 65,
+        hip: 90,
+        shoe: 37,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/melinunzi/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Merle Bergers",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark blonde",
+        eyeColour: "blue green",
+        //Measures Properties
+        height: 176,
+        bust: 87,
+        waist: 63,
+        hip: 93,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: null,
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Min Woo Lee",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "black",
+        eyeColour: "black",
+        //Measures Properties
+        height: 190,
+        bust: 99,
+        waist: 81,
+        hip: 100,
+        shoe: 44,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/min_leeee/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Mireia Agramunt",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "dark brown",
+        eyeColour: "hazel",
+        //Measures Properties
+        height: 170,
+        bust: 85,
+        waist: 62,
+        hip: 93,
+        shoe: 37,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/mireia_agramunt/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Mislene Montoro",
+        intoductionDate: new Date(2019, 08, 22),
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "light brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 165,
+        bust: 85,
+        waist: 62,
+        hip: 88,
+        shoe: 37,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/mislene_montoro/",
+    },
+
 
 ]
 
