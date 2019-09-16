@@ -7,9 +7,8 @@ import * as sharedStyles from '../../data/sharedStyles'
 //Image Imports
 import plusWhite from '../../assets/logos&icons/plusWhite.svg'
 import unikoIcon from '../../assets/logos&icons/unikoImagotipo.svg'
-import instagramIcon from '../../assets/logos&icons/instagramBlack.svg'
-import vimeoIcon from '../../assets/logos&icons/vimeoBlack.svg'
-import twitterIcon from '../../assets/logos&icons/twitterBlack.svg'
+import instagramIcon from '../../assets/logos&icons/instagramWhite.svg'
+import vimeoIcon from '../../assets/logos&icons/vimeoWhite.svg'
 
 
 //Styles
@@ -32,8 +31,8 @@ const ArrowFooterStyle = styled.img`
 //Open Footer
 const OpenFooterContainerStyle = styled.div`
     position: fixed;
-    background: ${sharedStyles.unikoWhite};
-    border: 2px solid ${sharedStyles.unikoBlack};
+    background: ${sharedStyles.unikoBlack};
+    //border: 2px solid ${sharedStyles.unikoBlack};
     //height: 330px;
     width: 42px;
     height: 40px;
@@ -65,7 +64,7 @@ const SubscribeFooterContainerStyle = styled.div`
 const SubscribeFooterTitleStyle = styled.h2`
     font-family: "Gotham-Black";
     font-size: 30px;
-    color: ${sharedStyles.unikoBlack};
+    color: ${sharedStyles.unikoWhite};
 `
 const SubscribeTsCsContainerStyle = styled.div`
    padding-top: 20px;
@@ -73,7 +72,7 @@ const SubscribeTsCsContainerStyle = styled.div`
 const SubscribeTsCsTextStyle = styled.label`
     font-family: "Gotham-Bold";
     font-size: 12px;
-    color: ${sharedStyles.unikoBlack}
+    color: ${sharedStyles.unikoWhite}
     line-height: 14px;
 `
 const SubscribeTsCsCheckboxStyle = styled.input`
@@ -82,7 +81,7 @@ const SubscribeTsCsCheckboxStyle = styled.input`
     appearance: none;
     -webkit-appearance: none;
 	background-color: transparent;
-	border: 2px solid ${sharedStyles.unikoBlack};
+	border: 2px solid ${sharedStyles.unikoWhite};
 	outline: none;
     width: 20px;
     height: 20px;
@@ -92,7 +91,7 @@ const SubscribeTsCsCheckboxStyle = styled.input`
     position: relative;
     transition: 0.4s;
     &:checked{
-        background: ${sharedStyles.unikoBlack};
+        background: ${sharedStyles.unikoWhite};
     }
 `
 const SubscribeNewsletterCointainerStyle = styled.div`
@@ -130,7 +129,7 @@ const SubscribeNewsletterLineStyle = styled.div`
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: ${sharedStyles.unikoBlack};
+    background: ${sharedStyles.unikoWhite};
 `
 const ContactMapsFooterContainerStyle = styled.div`
     position: absolute;
@@ -144,7 +143,7 @@ const ContactMapsLineStyle = styled.div`
     top: 20px;
     width: 100%;
     height: 2px;
-    background: ${sharedStyles.unikoBlack};
+    background: ${sharedStyles.unikoWhite};
 `
 
 const PoliciesFooterContainerStyle = styled.div`
@@ -153,10 +152,11 @@ const PoliciesFooterContainerStyle = styled.div`
     height: 20px;
     bottom: 5px;
     left: 0px;
+    color: ${sharedStyles.unikoWhite};
 `
 const PoliciesLinkStyle = styled.a`
     text-decoration: none;
-    color: ${sharedStyles.unikoBlack};
+    color: ${sharedStyles.unikoWhite};
     font-family: "PlayfairDisplay-Regular";
     font-size: 14px;
     line-height: 20px;
@@ -190,6 +190,7 @@ const ContactFooterTextStyle = styled.div`
     width: calc(49.5% - 10px);
     display: inline-block;
     margin-left: 10px;
+    color: ${sharedStyles.unikoWhite};
 `
 const MapsFooterTextStyle = styled.div`
     position: relative;
@@ -201,6 +202,7 @@ const MapsFooterTextStyle = styled.div`
     width: calc(49.5% - 10px);
     display: inline-block;
     margin-left: 10px;
+    color: ${sharedStyles.unikoWhite};
 `
 const UnikoFooterIconStyle = styled.img`
     position: absolute;
@@ -232,7 +234,7 @@ class Footer extends Component {
             this.menuFooterTween.to(this.plusRef, 0.4, { rotation: 135 })
             this.menuFooterTween.to(this.openFooterRef, 0.4, { bottom: "0" })
             this.menuFooterTween.to(this.openFooterRef, 0.4, { bottom: 0, left: 0, width: "100vw", height: "330px", transformOrigin: "center"}, "-=0.4" )
-            this.menuFooterTween.to(this.arrowFooterBoxStyle, 0.4, { border: "2px solid transparent" }, "-=0.4")
+            //this.menuFooterTween.to(this.arrowFooterBoxStyle, 0.4, { border: "2px solid transparent" }, "-=0.4")
             this.menuFooterTween.to(this.openFooterContentRef, 0, { display: "block"})
             this.menuFooterTween.to(this.openFooterContentRef, 0.4, { opacity: "1" })
             this.menuFooterTween.to(this.unikoFooterIconRef, 0.4, { opacity: "1", display: "block" }, "-=0.4")
