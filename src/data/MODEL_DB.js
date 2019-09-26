@@ -1,6 +1,5 @@
 
-
-const MODEL_DB = [
+const MODEL_DB_UNORDERED = [
     ///////////
     //// A ////
     ///////////
@@ -58,6 +57,8 @@ const MODEL_DB = [
     {
         //Agency Properties
         name: "Adam Ayer",
+        firstName: "Adam",
+        surname: "Ayer",
         //introductionDate: new Date(2019, 08, 22),
         activeWithUniko: true,
         newInIndustry: false,
@@ -159,9 +160,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Afra Van Ooijen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -207,9 +210,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Akin Victor",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "black",
@@ -255,9 +260,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Alban Wurm",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -303,9 +310,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Alex Guinot",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -351,9 +360,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Alex Ko",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -397,11 +408,113 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Alina Krasina",
+        name: "Alicia Herrenriech",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
+        newInIndustry: true,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "hazel",
+        //Measures Properties
+        height: 173,
+        bust: 83,
+        waist: 63,
+        hip: 90,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/aliciaherrenreich/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Alina Brychka",
+        //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "green",
+        //Measures Properties
+        height: 179,
+        bust: 81,
+        waist: 58,
+        hip: 88,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: null,
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Alina Krasina",
+        //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -447,9 +560,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Amaka Enem",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -495,9 +610,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Anastasia Jovanovic",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "hazel",
@@ -543,9 +660,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Anastasia Saprikina",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -591,9 +710,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Anastasija Gavrjusenko",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -639,9 +760,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Angela Kajo",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -687,9 +810,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Aniko Michnyaova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -735,9 +860,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Anna-Christina Schwartz",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -783,9 +910,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Annegrietje Franssen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -831,9 +960,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Annewil Hokken",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -879,9 +1010,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Anthony To",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "black",
@@ -927,9 +1060,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Asa Stensson",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light blonde",
@@ -975,9 +1110,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Aurelien Marinangeli",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark brown",
@@ -1023,9 +1160,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Axel Swan",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -1074,9 +1213,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Balthazar Kloppers",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -1120,11 +1261,63 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Ben Desombre",
+        //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
+        newInIndustry: false,
+        timeless: true,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "grey",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 184,
+        bust: 95,
+        waist: 80,
+        hip: 95,
+        shoe: 43.5,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: null,
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Benjamin Kuhnemund",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -1170,9 +1363,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Blazej Kutyla",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -1218,9 +1413,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Bob Van Der Hoek",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -1266,9 +1463,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Brian Lachenal",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -1317,9 +1516,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Cami Ferreyro",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -1365,9 +1566,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Camila Giovagnoli",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -1413,9 +1616,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Camille Gross",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "black",
@@ -1461,9 +1666,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Candide Rietdijk",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -1509,9 +1716,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Carles Fiestas",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark brown",
@@ -1557,9 +1766,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Carolina Barcellona",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -1605,9 +1816,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Catherine Delzenne",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "grey",
@@ -1653,9 +1866,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Cherella Timmers",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -1701,9 +1916,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Chiara Arbouw",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -1749,9 +1966,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Christian Canovas",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -1797,9 +2016,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Christian Peters",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -1845,9 +2066,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Christina Rasputin",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -1893,9 +2116,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Christine Beutmann",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -1941,9 +2166,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Circe De La Rosa",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -1989,9 +2216,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Claire Romain",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "ginger",
@@ -2037,9 +2266,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Claudia Szeglat",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -2085,9 +2316,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Connie Robinson",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "red blonde",
@@ -2133,9 +2366,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Corentin Huon",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "salt & pepper",
@@ -2181,9 +2416,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Cristina Guillen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -2229,9 +2466,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Cynthia Capri",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -2280,9 +2519,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Daan Disseldop",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -2328,9 +2569,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Dane Goodwin",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -2376,9 +2619,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Danielle Van Dam",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -2424,9 +2669,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Daphne Kooy",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "red brown",
@@ -2472,9 +2719,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Daria Markova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -2520,9 +2769,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Daria Tsiar",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -2568,9 +2819,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Dennis Van Shuppen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -2616,9 +2869,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Diante Celeste",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -2664,9 +2919,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Dienke Rozendom",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -2712,57 +2969,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Dominic Wunsch",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
-        //Descriptive Properties
-        gender: "male",
-        hairColour: "brown",
-        eyeColour: "blue",
-        //Measures Properties
-        height: 186,
-        bust: 103,
-        waist: 85,
-        hip: null,
-        shoe: 44,
-        //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
-        //Links
-        instagramLink: "https://www.instagram.com/dominic.wuensch/",
-    },
-    //NEW MODEL
-    {
-        //Agency Properties
-        name: "Dominic Wunsch",
-        //introductionDate: new Date(2019, 08, 22),
-        newInIndustry: false,
-        timeless: false,
-        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -2808,9 +3019,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Donata Von Behr",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown red",
@@ -2856,9 +3069,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Dorian Isaacson",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -2904,9 +3119,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Dylan Van Trigt",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -2955,9 +3172,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Eder Barral",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -3003,9 +3222,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Edu Roman",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -3051,9 +3272,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Eduard Domenech",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -3099,9 +3322,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Eduard Torres",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark brown",
@@ -3147,9 +3372,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Elee Nova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -3195,9 +3422,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Elise Vant Zand",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -3243,9 +3472,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Eliza Musial",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -3291,9 +3522,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Ema Brenkusova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -3339,9 +3572,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Emily Barbe",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -3387,9 +3622,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Estel Castelló",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -3435,9 +3672,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Eva Perfido",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -3483,9 +3722,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Evy Markovits",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -3531,9 +3772,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Ezequiel Sisterna",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "grey",
@@ -3582,9 +3825,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Fabricio Zunino",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -3630,9 +3875,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Felicia Parent",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -3678,9 +3925,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Fenna Palsma",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -3726,9 +3975,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Florence Eugene",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -3774,9 +4025,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Florence Schreinemachers",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -3822,9 +4075,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Fran Osornio",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -3870,9 +4125,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Francesco Cuizza",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -3918,9 +4175,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Franziska Klein",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -3966,9 +4225,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Frederique Brons",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -4017,9 +4278,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Gabriela Cruz",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4065,9 +4328,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Gia Lily",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -4109,6 +4374,59 @@ const MODEL_DB = [
         instagramLink: null,
     },
     ///////////
+    //// H ////
+    ///////////
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Hanna Buklaha",
+        //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 178,
+        bust: 80,
+        waist: 60,
+        hip: 89,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/_buklaha_/",
+    },
+    ///////////
     //// I ////
     ///////////
     //NEW MODEL
@@ -4116,9 +4434,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Iñaki Benito",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -4164,9 +4484,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Indira Toraní",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4212,9 +4534,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Irene Lorenzon",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4260,9 +4584,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Irina Soldevila",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4308,9 +4634,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Isabel Rijk",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -4356,9 +4684,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Isabella De Candia",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4404,9 +4734,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Isadee Jansen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -4452,9 +4784,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Iskamella Risiomara",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -4503,9 +4837,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jaime Guillen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -4551,9 +4887,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jan Zdulski",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -4599,9 +4937,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jana Balcázar",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4647,9 +4987,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Janis Danner",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -4695,9 +5037,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Janneke Van Opstal",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4743,9 +5087,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jannik Knopp",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -4791,9 +5137,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Janouk Van Beek",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -4839,9 +5187,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jasmin Hartmann",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -4887,9 +5237,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Javier Moreno",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "grey",
@@ -4935,9 +5287,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jens Lagenfurth",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -4983,9 +5337,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jeremy Veasey",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -5031,9 +5387,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jesse Osterrieder",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "black",
@@ -5079,9 +5437,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jey Rocher",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -5127,9 +5487,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jimmie Kersmo",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -5175,9 +5537,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jip Van Soest",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -5223,9 +5587,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Joan Pastor",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -5271,9 +5637,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Joan Pedrola",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -5319,9 +5687,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jolanda Van Der Linden",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -5367,9 +5737,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jonas Rosenbauer",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -5415,9 +5787,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jordi Rosello",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: false,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -5463,9 +5837,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jorge Roman",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -5511,9 +5887,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Joyce Groen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -5559,9 +5937,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Judit Oms",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -5607,9 +5987,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Juli Teres",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -5655,9 +6037,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Julia Rath",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -5703,9 +6087,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Julie Beekman",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -5751,9 +6137,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Julie Pallesen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -5799,9 +6187,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Julie Veldhuis",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -5847,9 +6237,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Jurn Decleer",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -5895,9 +6287,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Justina Vazgauskaite",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -5946,9 +6340,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Karla Jorba",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -5994,9 +6390,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Katarina Nemcova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -6042,9 +6440,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Katharina Siekmann",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -6090,9 +6490,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Kevin Pabel",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -6138,9 +6540,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Khalil Saidane",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -6186,9 +6590,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Kim Daria",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -6234,9 +6640,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Kristina Cincurova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -6285,9 +6693,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Lachelle Dechesne",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -6333,9 +6743,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Lara Leijs",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -6381,9 +6793,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Laura Lundgreen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light blonde",
@@ -6429,9 +6843,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Lautaro Garcia",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -6477,9 +6893,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Léa Bonneau",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -6525,57 +6943,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Leonie Scheunemann",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
-        //Descriptive Properties
-        gender: "female",
-        hairColour: "dark brown",
-        eyeColour: "blue",
-        //Measures Properties
-        height: 180,
-        bust: 86,
-        waist: 62,
-        hip: 89,
-        shoe: 41,
-        //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
-        //Links
-        instagramLink: "https://www.instagram.com/leonie.kim",
-    },
-    //NEW MODEL
-    {
-        //Agency Properties
-        name: "Leonie Scheunemann",
-        //introductionDate: new Date(2019, 08, 22),
-        newInIndustry: false,
-        timeless: false,
-        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -6621,9 +6993,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Liam Du Plessis",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -6667,21 +7041,23 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Liam Du Plessis",
+        name: "Lisa Maes",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
-        curvy: false,
+        curvy: true,
+        inTown: false,
         //Descriptive Properties
-        gender: "male",
-        hairColour: "brown",
-        eyeColour: "green",
+        gender: "female",
+        hairColour: "dark blonde",
+        eyeColour: "blue green",
         //Measures Properties
-        height: 185,
-        bust: 97,
-        waist: 83,
-        hip: null,
-        shoe: 44.5,
+        height: 178,
+        bust: 95,
+        waist: 77,
+        hip: 106,
+        shoe: 41,
         //Photos
         profilePhoto: "",
         agencyPhotos: [
@@ -6710,16 +7086,18 @@ const MODEL_DB = [
             },
         ],
         //Links
-        instagramLink: "https://www.instagram.com/liam_du_plessis16/",
+        instagramLink: "https://www.instagram.com/lisaamaes/",
     },
     //NEW MODEL
     {
         //Agency Properties
         name: "Lisa Weggemans",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -6765,9 +7143,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Lize Romer",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -6813,9 +7193,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Lloyd Bartis",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -6859,11 +7241,63 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Lukas Hoffmann",
+        name: "Lottie De Jong",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 180,
+        bust: 105,
+        waist: 82,
+        hip: 112,
+        shoe: 42,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/lottie.dj/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Lukas Hoffmann",
+        //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -6912,9 +7346,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Magda Cernakova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -6960,57 +7396,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Maia Cassani",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
-        //Descriptive Properties
-        gender: "female",
-        hairColour: "blonde",
-        eyeColour: "brown",
-        //Measures Properties
-        height: 172,
-        bust: 81,
-        waist: 62,
-        hip: 87,
-        shoe: 39,
-        //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
-        //Links
-        instagramLink: "https://www.instagram.com/maiacassani/",
-    },
-    //NEW MODEL
-    {
-        //Agency Properties
-        name: "Maia Cassani",
-        //introductionDate: new Date(2019, 08, 22),
-        newInIndustry: false,
-        timeless: false,
-        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -7056,9 +7446,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Maja Wroblewska",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -7104,9 +7496,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Malijn Pieterse",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -7152,11 +7546,13 @@ const MODEL_DB = [
         //Agency Properties
         name: "Marc Jourdan",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
-        gender: "female",
+        gender: "male",
         hairColour: "black",
         eyeColour: "brown",
         //Measures Properties
@@ -7200,11 +7596,13 @@ const MODEL_DB = [
         //Agency Properties
         name: "Marcel Glaser",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
-        gender: "female",
+        gender: "male",
         hairColour: "blonde",
         eyeColour: "blue",
         //Measures Properties
@@ -7248,11 +7646,13 @@ const MODEL_DB = [
         //Agency Properties
         name: "Marcos Estevez",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
-        gender: "female",
+        gender: "male",
         hairColour: "dark brown",
         eyeColour: "green",
         //Measures Properties
@@ -7296,9 +7696,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Maria Leiva",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -7344,9 +7746,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Marijke Versluijs",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -7392,9 +7796,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Mario Zabal",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -7440,9 +7846,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Marius Hordijk",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -7488,9 +7896,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Marlies Smedinga",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -7536,9 +7946,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Martina Werner",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -7584,9 +7996,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Mateo Moreno",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -7632,9 +8046,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Matteo Murer",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -7680,9 +8096,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Matti Ceulemans",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -7728,9 +8146,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Maximiliano Casedei",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -7774,11 +8194,63 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Meli Nunzi",
+        name: "May Grootjen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "blonde",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 179,
+        bust: 86,
+        waist: 61,
+        hip: 89,
+        shoe: 39,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/may.grootjen/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
+        name: "Meli Nunzi",
+        //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -7824,9 +8296,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Merle Bergers",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -7872,9 +8346,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Min Woo Lee",
         //introductionDate: new Date(2019, 08, 22),
-        newInIndustry: false,
+        activeWithUniko: true,
+        newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "black",
@@ -7920,9 +8396,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Mireia Agramunt",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -7968,9 +8446,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Mislene Montoro",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -8019,9 +8499,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Nariné Kagramanyan",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8067,9 +8549,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Ni Hao",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "black",
@@ -8113,11 +8597,63 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Nica Gimenez",
+        //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
+        newInIndustry: false,
+        timeless: false,
+        curvy: true,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "brown",
+        eyeColour: "brown",
+        //Measures Properties
+        height: 175,
+        bust: 99,
+        waist: 79,
+        hip: 111,
+        shoe: 38,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/nicagimenez/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Niclas Gonzales",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -8163,57 +8699,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Nicola Cavanis",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
-        //Descriptive Properties
-        gender: "female",
-        hairColour: "brown",
-        eyeColour: "green",
-        //Measures Properties
-        height: 173,
-        bust: 88,
-        waist: 63,
-        hip: 90,
-        shoe: 39,
-        //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
-        //Links
-        instagramLink: "https://www.instagram.com/nicolaca_/",
-    },
-    //NEW MODEL
-    {
-        //Agency Properties
-        name: "Nicola Cavanis",
-        //introductionDate: new Date(2019, 08, 22),
-        newInIndustry: false,
-        timeless: false,
-        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8259,9 +8749,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Nicole Rijsdijk",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8307,9 +8799,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Nicolle Schneider",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8355,9 +8849,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Nieves Mallor",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8403,9 +8899,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Nikola Vildova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8451,9 +8949,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Norton O'Donnell",
         //introductionDate: new Date(2019, 08, 22),
-        newInIndustry: false,
+        activeWithUniko: true,
+        newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -8502,9 +9002,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Ola Dul",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8553,9 +9055,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Patricia Roman",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8601,9 +9105,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Patricia Vidal",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8649,9 +9155,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Patrick Staal",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -8697,9 +9205,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Paula Rodriguez",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -8745,9 +9255,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Paula Salort",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -8793,9 +9305,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Paulina Erickson",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8841,9 +9355,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Paulina Gluszek",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -8889,9 +9405,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Piet Van Dijk",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -8940,9 +9458,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Quinten Ajenifuja",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -8989,11 +9509,13 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Rafael Wojtysiak",
+        name: "Rafal Wojtysiak",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "salt & pepper",
@@ -9039,9 +9561,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Raluca Mos",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -9087,9 +9611,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Raquel Boscá",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -9135,9 +9661,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Raquel Jimenez",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -9181,21 +9709,23 @@ const MODEL_DB = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Raquel Jimenez",
+        name: "Raul Gimenez",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
-        gender: "female",
-        hairColour: "brown",
-        eyeColour: "blue",
+        gender: "male",
+        hairColour: "black",
+        eyeColour: "brown",
         //Measures Properties
-        height: 169,
-        bust: 90,
-        waist: 62,
-        hip: 89,
-        shoe: 38.5,
+        height: 187,
+        bust: 97,
+        waist: 81,
+        hip: 99,
+        shoe: 44,
         //Photos
         profilePhoto: "",
         agencyPhotos: [
@@ -9224,16 +9754,18 @@ const MODEL_DB = [
             },
         ],
         //Links
-        instagramLink: null,
+        instagramLink: "https://www.instagram.com/raulgimenezh/",
     },
     //NEW MODEL
     {
         //Agency Properties
         name: "Rebeca Ravina",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -9279,9 +9811,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Renske Linders",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -9327,9 +9861,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Ric Wersig",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "dark blonde",
@@ -9375,9 +9911,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Rick Groothuizen",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "blonde",
@@ -9423,9 +9961,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Rodolphe Von Blon",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "grey",
@@ -9471,9 +10011,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Rosanne Swart",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -9519,9 +10061,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Rudi Nieuwenhuys",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -9567,9 +10111,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Rym Gallardo",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -9618,9 +10164,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sadiq Adeshina",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "black",
@@ -9666,9 +10214,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Samuel Savage",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "black",
@@ -9714,9 +10264,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sandra Hortelano",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light brown",
@@ -9762,9 +10314,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sascha Bunge",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -9810,9 +10364,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sasha Myk",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -9858,9 +10414,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Saskia Topp",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -9906,9 +10464,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Schirin Frosch",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -9954,9 +10514,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sebastiaan Van Vliet",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "red brown",
@@ -10002,9 +10564,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sebastiaan Bianchetti",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -10050,9 +10614,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sergi Bafa",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "salt & pepper",
@@ -10098,9 +10664,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sergio Perez",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -10146,9 +10714,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Shanna Keetelaar",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -10194,9 +10764,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Shenyue Ding",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -10242,9 +10814,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sherouk Farid",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -10290,9 +10864,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Shirley Soltan",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -10338,9 +10914,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Silvia Arenas",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark brown",
@@ -10386,9 +10964,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sofia Romero",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: true,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -10434,9 +11014,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sophia Korcuskova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -10482,9 +11064,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sophie Czarnecki",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -10530,9 +11114,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Sophie Maxim",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -10578,9 +11164,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Stijn De Jongh",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -10626,9 +11214,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Svenja Van Beek",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "dark blonde",
@@ -10677,9 +11267,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Tess Van De Bleek",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -10725,9 +11317,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Tessa May",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -10773,9 +11367,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Thijs Latten",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -10821,9 +11417,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Tilly Kuiper",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: true,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "red",
@@ -10869,9 +11467,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Tiziano Sorbellini",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -10917,9 +11517,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Tom Cornelisse",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
-        timeless: false,
+        timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -10965,9 +11567,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Tom Erickson",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "light brown",
@@ -11013,9 +11617,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Toma McDonagh",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -11064,9 +11670,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Valerie Pasker",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -11112,9 +11720,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Veronika Kreuzerova",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -11160,9 +11770,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Virginia Ferreira",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: true,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "blonde",
@@ -11208,9 +11820,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Virginia Pareja",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -11256,57 +11870,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Vivien Gutmann",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
-        //Descriptive Properties
-        gender: "female",
-        hairColour: "brown",
-        eyeColour: "brown",
-        //Measures Properties
-        height: 176,
-        bust: 83,
-        waist: 61,
-        hip: 89,
-        shoe: 38,
-        //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
-        //Links
-        instagramLink: "https://www.instagram.com/viviengutmann/",
-    },
-    //NEW MODEL
-    {
-        //Agency Properties
-        name: "Vivien Gutmann",
-        //introductionDate: new Date(2019, 08, 22),
-        newInIndustry: false,
-        timeless: false,
-        curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "brown",
@@ -11355,9 +11923,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Xanthe Wijma",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "female",
         hairColour: "light blonde",
@@ -11406,9 +11976,11 @@ const MODEL_DB = [
         //Agency Properties
         name: "Yassine Rahal",
         //introductionDate: new Date(2019, 08, 22),
+        activeWithUniko: true,
         newInIndustry: false,
         timeless: false,
         curvy: false,
+        inTown: false,
         //Descriptive Properties
         gender: "male",
         hairColour: "brown",
@@ -11449,10 +12021,40 @@ const MODEL_DB = [
         //Links
         instagramLink: "https://www.instagram.com/yassinerahal",
     },
-
-
-
+    /////////////////////
+    //// NEW ENTRIES ////
+    ////////////////////
 
 ]
+
+
+
+
+
+//Filter All Inactive Models
+const MODEL_DB_UNORDERED_ACTIVE = MODEL_DB_UNORDERED.filter( (model) => {
+    if(model.activeWithUniko === true){
+        return model
+    } else {
+        return null
+    }
+})
+
+//Function To Sort Alphabetically by Property Name
+function dynamicSort(property) {
+    var sortOrder = 1;
+    if(property[0] === "-") {
+        sortOrder = -1;
+        property = property.substr(1);
+    }
+    return function (a,b) {
+        var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+        return result * sortOrder;
+    }
+}
+
+//Function Being Used to Sort DB Alphabetically
+const MODEL_DB = MODEL_DB_UNORDERED_ACTIVE.sort(dynamicSort("name"));
+
 
 export default MODEL_DB
