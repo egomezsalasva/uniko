@@ -4,13 +4,13 @@ import styled from 'styled-components'
 //Style Imports
 import * as sharedStyles from '../../../data/sharedStyles'
 //Image Imports
-import logoImage from '../../../assets/logos&icons/logoUniko.svg'
-import logoImageBorder from '../../../assets/logos&icons/logoUnikoBorder.svg'
+import logoWhite from '../../../assets/logos&icons/logoWhite.svg'
+import logoWhiteBorder from '../../../assets/logos&icons/logoWhiteBorder.svg'
 
 
 //Styles
 const LogoStyle = styled.img`
-    position: absolute;
+    position: fixed;
     left: ${sharedStyles.w40px};
     top: ${sharedStyles.h30px};
     z-index: 1600;
@@ -20,7 +20,7 @@ const LogoStyle = styled.img`
 function Logo(props) {
   return (
     <React.Fragment>
-      { props.logoToggle ? <LogoStyle src={logoImage} /> : <LogoStyle src={logoImageBorder} />}
+      { props.logoToggle ? <LogoStyle src={logoWhite} /> : <LogoStyle src={logoWhiteBorder} />}
     </React.Fragment>
   );
 }

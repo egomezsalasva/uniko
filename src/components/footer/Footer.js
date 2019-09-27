@@ -1,5 +1,6 @@
 //Library Imports
 import React, {Component, Fragment} from 'react'
+import { Link } from "react-router-dom"
 import styled from 'styled-components'
 import { TimelineMax } from 'gsap/all'
 //Style Imports
@@ -13,7 +14,7 @@ import vimeoIcon from '../../assets/logos&icons/vimeoWhite.svg'
 
 //Styles
 const ArrowFooterBoxStyle = styled.div`
-    position: absolute;
+    position: fixed;
     bottom: ${sharedStyles.h30px};
     left: ${sharedStyles.w40px};
     background: ${sharedStyles.unikoBlack};
@@ -74,6 +75,12 @@ const SubscribeTsCsTextStyle = styled.label`
     font-size: 12px;
     color: ${sharedStyles.unikoWhite}
     line-height: 14px;
+    span{
+        font-family: "Gotham-Black";
+        font-size: 13px;
+        color: ${sharedStyles.unikoWhite};
+        text-decoration: none;
+    }
 `
 const SubscribeTsCsCheckboxStyle = styled.input`
     position: absolute;
@@ -110,6 +117,9 @@ const SubscribeNewsletterEmailInputStyle = styled.input`
     border: none;
     outline: none;
     background: transparent;
+    color: ${sharedStyles.unikoWhite};
+    font-family: "Gotham-BookItalic";
+    font-size: 14px;
 `
 const SubscribeNewsletterButtonStyle = styled.button`
     position: absolute;
@@ -119,6 +129,7 @@ const SubscribeNewsletterButtonStyle = styled.button`
     right: 0;
     font-family: "Gotham-Black";
     font-size: 15px;
+    color: ${sharedStyles.unikoWhite};
     outline: none;
     border: none;
     cursor: pointer;
@@ -160,6 +171,11 @@ const PoliciesLinkStyle = styled.a`
     font-family: "PlayfairDisplay-Regular";
     font-size: 14px;
     line-height: 20px;
+    transition: 0.4s;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
 `
 const SocialsFooterContainerStyle = styled.div`
     position: absolute;
@@ -172,6 +188,11 @@ const SocialIconStyle = styled.img`
     padding-right: 20px;
     &:last-of-type{
         padding-right: 0px; 
+    }
+    transition: 0.4s;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
     }
 `
 const ContactFooterTitleStyle = styled(SubscribeFooterTitleStyle)`
@@ -192,7 +213,8 @@ const ContactFooterTextStyle = styled.div`
     margin-left: 10px;
     color: ${sharedStyles.unikoWhite};
 `
-const MapsFooterTextStyle = styled.div`
+const MapsFooterTextStyle = styled.a`
+    display: block;
     position: relative;
     top: calc(20px + 2px + 30px);
     font-family: Gotham-Bold;
@@ -203,6 +225,7 @@ const MapsFooterTextStyle = styled.div`
     display: inline-block;
     margin-left: 10px;
     color: ${sharedStyles.unikoWhite};
+    text-decoration: none;
 `
 const UnikoFooterIconStyle = styled.img`
     position: absolute;
@@ -231,8 +254,8 @@ class Footer extends Component {
 
     componentDidMount(){
         this.menuFooterTween = new TimelineMax({ paused: true, reversed: true })
-            this.menuFooterTween.to(this.plusRef, 0.4, { rotation: 135 })
-            this.menuFooterTween.to(this.openFooterRef, 0.4, { bottom: "0" })
+            this.menuFooterTween.to(this.plusRef, 0.4, { rotation: 45 })
+            this.menuFooterTween.to(this.openFooterRef, 0.4, { bottom: "0" }, "-=0.4")
             this.menuFooterTween.to(this.openFooterRef, 0.4, { bottom: 0, left: 0, width: "100vw", height: "330px", transformOrigin: "center"}, "-=0.4" )
             //this.menuFooterTween.to(this.arrowFooterBoxStyle, 0.4, { border: "2px solid transparent" }, "-=0.4")
             this.menuFooterTween.to(this.openFooterContentRef, 0, { display: "block"})
@@ -255,8 +278,6 @@ class Footer extends Component {
                 <ArrowFooterBoxStyle 
                     ref={div => this.arrowFooterBoxStyle = div} 
                     onClick={ this.handlePlusClick }
-                    onMouseEnter = { () => this.plusHoverTween.play() } 
-                    onMouseLeave = { () => this.plusHoverTween.reverse() } 
                 >
                     <ArrowFooterStyle 
                         src={plusWhite}
@@ -278,7 +299,7 @@ class Footer extends Component {
                             <SubscribeTsCsContainerStyle>
                                 <SubscribeTsCsTextStyle>
                                     Suscríbete a nuestra newsletter<br/>
-                                    Pero antes, es imprescindible  que aceptes los Términos y Condiciones
+                                    Pero antes, es imprescindible  que aceptes los <Link><span>Términos y Condiciones</span></Link>
                                 </SubscribeTsCsTextStyle>
                                 <SubscribeTsCsCheckboxStyle type="checkbox" id="termsAndConditions" name="termsAndConditions" value="termsAndConditions" /> 
                             </SubscribeTsCsContainerStyle>
@@ -307,7 +328,7 @@ class Footer extends Component {
                                 Tel: (+34) 931 400 372 <br/>
                                 Email: info@unikomodels.com
                             </ContactFooterTextStyle>
-                            <MapsFooterTextStyle>
+                            <MapsFooterTextStyle href="https://www.google.com/maps/place/Carrer+de+Pallars,+84,+3a,+08018+Barcelona/@41.3947098,2.1877848,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a31bee2fb19d:0xf0d880f8627deb3e!8m2!3d41.3947098!4d2.1899735" target="_blank">
                                 Carrer de Pallars, 84-86, 2º, 3ª <br/> 
                                 08018 Barcelona
                             </MapsFooterTextStyle>
@@ -322,7 +343,6 @@ class Footer extends Component {
                         <SocialsFooterContainerStyle>
                             <SocialIconStyle src={instagramIcon} />
                             <SocialIconStyle src={vimeoIcon} />
-                            {/* <SocialIconStyle src={twitterIcon} /> */}
                         </SocialsFooterContainerStyle>
 
                     </OpenFooterContentStyle>

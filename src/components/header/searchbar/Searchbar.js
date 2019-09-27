@@ -1,5 +1,6 @@
 //Library Imports
 import React, {Component, Fragment} from 'react'
+import { Link } from "react-router-dom"
 import styled from 'styled-components'
 import { TimelineMax } from 'gsap/all'
 //Style Imports
@@ -12,7 +13,7 @@ import MODEL_DB from '../../../data/MODEL_DB'
 
 //Styles
 const SearchboxStyle = styled.div`
-    position: absolute;
+    position: fixed;
     top: calc(${sharedStyles.h30px});
     right: calc(${sharedStyles.w40px} + 52px);
     background: ${sharedStyles.unikoBlack};
@@ -33,8 +34,8 @@ const FilterInputStyle = styled.input`
     position: relative;
     left: calc(42px + 10px);
     line-height: 36px;
-    width: 510px;
-    background: transparent;
+    width: 360px;
+    background: rgba(0, 0, 0, 0.0);
     border: none;
     color: ${sharedStyles.unikoWhite}; 
     font-family: Gotham-BookItalic;
@@ -43,7 +44,7 @@ const FilterInputStyle = styled.input`
     display: none;
 `
 const SearchboxShadowStyle = styled.div`
-    position: absolute;
+    position: fixed;
     top: calc(${sharedStyles.h30px});
     right: calc(${sharedStyles.w40px} + 52px);
     background: ${sharedStyles.unikoBlack};
@@ -67,7 +68,7 @@ const DirectoryContainerStyle = styled.div`
     
 `
 const CloseButtonStyle = styled.div`
-    position: absolute;
+    position: fixed;
     top: ${sharedStyles.h30px};
     right: ${sharedStyles.w40px};
     width: 42px;
@@ -81,25 +82,39 @@ const CrossDirectoryStyle = styled.img`
     left: 10px;
     
 `
+const DirectoryIndexContainerStyleWidth = "68.0555556vw"
 const DirectoryIndexContainerStyle = styled.div`
-    position: absolute;
-    width: 68.0555556vw;
+    position: fixed;
+    width: ${DirectoryIndexContainerStyleWidth};
     height: 70vh;
-    //background: red;
     left: 50%;
-    top: 50%;
+    top: calc(50% + 2%);
     transform: translate(-50%, -50%);
     overflow: scroll; 
+`
+const DirectoryIndexInnerContainerStyle = styled.div`
+    position: absolute;
+    width: ${DirectoryIndexContainerStyleWidth};
+    //height: 70vh;
     columns: 4;
     //column-gap: 45px;
+    column-width: calc(${DirectoryIndexContainerStyleWidth}/5);
+    column-fill: auto;
 `
-const ListOfNamesStyle = styled.a`
+const ListOfNamesLinkStyle = styled(Link)`
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+`
+const ListOfNamesStyle = styled.p`
+    margin: 0;
+    padding: 0;
     font-family: Gotham-BookItalic;
     font-size: 14px;
     color: ${sharedStyles.unikoWhite};
-    line-height: 21px;
+    line-height: 16px;
     text-transform: uppercase;
-    text-decoration: none;
+    margin-bottom: 5px;
 `
 
 
@@ -117,7 +132,7 @@ class Searchbar extends Component {
     componentDidMount(){
         this.searchTween = new TimelineMax({ paused: true, reversed: true })
             this.searchTween.to(this.searchboxShadowRef, 0.4, {top: 0, right: 0, width: "100vw", height: "100vh", transformOrigin: "center", display: "block" })
-            this.searchTween.to(this.searchboxRef, 0.8, { width: "580px", zIndex: "1550", borderBottom: "2px solid white" })
+            this.searchTween.to(this.searchboxRef, 0.8, { width: "440px", zIndex: "1550", borderBottom: "2px solid white" })
             this.searchTween.to(this.filterInputRef, 0.0, { display: "block" })
 
 
@@ -131,29 +146,39 @@ class Searchbar extends Component {
     }
 
     updateSearch = e => {
-        this.setState({search: e.target.value.substr(0, 70)})
+        this.setState({search: e.target.value.substr(0, 70).toUpperCase()})
     }
 
 
 
     render() {
 
-        //this.state.search.toUpperCase()
-
-        let filteredModelDB = this.state.modelDB.filter((model) => {
-            let modelName = model.name.toUpperCase().split(" ")
-            let matchingFromFront = new RegExp("^" + this.state.search.toUpperCase());
-            return matchingFromFront.test(modelName[0]) || matchingFromFront.test(modelName[1])
+        const filteredModelDB = this.state.modelDB.filter((model) => {
+            //Database Data
+            const modelNameDB = model.name.toUpperCase()
+            const modelSplitNameDB = model.name.toUpperCase().split(" ") //split each word (name and surname)
+            //Text Input Data
+            const inputNameSearch = this.state.search.toUpperCase()
+            //RegEx
+            const matchingFromFront = new RegExp("^" + inputNameSearch);
+            //Look for matches
+            return matchingFromFront.test(modelSplitNameDB[0]) //check for Name 
+                   || matchingFromFront.test(modelSplitNameDB[1]) // surname01 
+                   || matchingFromFront.test(modelSplitNameDB[2]) // surname02 
+                   || matchingFromFront.test(modelSplitNameDB[3]) // surname03 (better change to index and loop))
+                   || modelNameDB.indexOf(matchingFromFront) !== -1 //match full name with space (not working!!!)
         })
 
-       
+        const whiteSpaceRegEx = / /g;
+
+
         return (
             <Fragment>
                 <SearchboxStyle onClick={ () => this.searchTween.play() } ref={div => this.searchboxRef = div}>
                     <MagnifyingGlassIconStyle src={magnifyingGlass} />
                     <FilterInputStyle 
                         type="text" 
-                        placeholder="Type Here"  
+                        placeholder="Search For Model Here"  
                         value={this.state.search} 
                         onChange={this.updateSearch}
                         ref={div => this.filterInputRef = div}
@@ -170,9 +195,16 @@ class Searchbar extends Component {
                         </CloseButtonStyle>
                         {/* Directory Index Container */}
                         <DirectoryIndexContainerStyle>
+                            <DirectoryIndexInnerContainerStyle>
                                 {filteredModelDB.map(function(model, i){
-                                    return <ListOfNamesStyle href={`#${model.name}`} key={i}>{model.name}<br/></ListOfNamesStyle>
+                                    return <ListOfNamesLinkStyle to={`/modelos/${model.name.replace(whiteSpaceRegEx, "-").toLowerCase()}`} key={i}>
+                                                <ListOfNamesStyle>
+                                                    {model.name}
+                                                </ListOfNamesStyle>
+                                                
+                                            </ListOfNamesLinkStyle>
                                 })}
+                            </DirectoryIndexInnerContainerStyle>
                         </DirectoryIndexContainerStyle>
                         
 

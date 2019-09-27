@@ -10,26 +10,14 @@ import Searchbar from './searchbar/Searchbar'
 //Main Component
 class Header extends Component {
 
-  constructor(props){
-    super(props);
-    //State
-    this.state = {
-        logoToggle: true
-    };
-  }
-
-  menuToggleHandler = () => {
-    this.setState(prevState => ({
-      logoToggle: !prevState.logoToggle
-    }));
-  }
+  
 
   render(){
     return (
       <header>
-          <Logo logoToggle={this.state.logoToggle} menuToggleHandler={this.menuToggleHandler}/>
+          <Logo logoToggle={this.props.logoToggle} />
           <Searchbar />
-          <Menu menuToggleHandler={this.menuToggleHandler}/>
+          <Menu menuLogoToggleHandler={this.props.menuLogoToggleHandler}/>
       </header>
     );
   }

@@ -1,5 +1,6 @@
 //Library Imports
 import React, {Component, Fragment} from 'react'
+import { NavLink } from "react-router-dom"
 import styled from 'styled-components'
 import { TimelineMax } from 'gsap/all'
 //Style Imports
@@ -7,12 +8,11 @@ import * as sharedStyles from '../../../data/sharedStyles'
 //Image Imports
 import instagramIcon from '../../../assets/logos&icons/instagramWhite.svg'
 import vimeoIcon from '../../../assets/logos&icons/vimeoWhite.svg'
-import twitterIcon from '../../../assets/logos&icons/twitterWhite.svg'
 
 
 //Styles
 const HamburgerMenuStyle = styled.div`
-    position: absolute;
+    position: fixed;
     top: ${sharedStyles.h30px};
     right: ${sharedStyles.w40px};
     background: ${sharedStyles.unikoBlack};
@@ -58,7 +58,7 @@ const HamburgerMenuShadowStyle = styled.div`
 `
 //OPEN MENU
 const OpenMenuStyle = styled.div`
-    position: absolute;
+    position: fixed;
     z-index: 950;
     background: ${sharedStyles.unikoBlack};
     top: 0;
@@ -84,9 +84,9 @@ const NavListStyle = styled.ul`
 const NavItemStyle = styled.li`
     margin-bottom: 5px;
 `
-const NavLinkStyle = styled.a`
+const NavLinkStyle = styled(NavLink)`
     text-decoration: none;
-    color: ${props => props.active ? sharedStyles.unikoBlack : sharedStyles.unikoWhite };
+    color: ${ sharedStyles.unikoWhite };
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: ${sharedStyles.unikoWhite};
     transition: 0.4s;
@@ -189,11 +189,13 @@ class Menu extends Component {
             this.menuTween.from(this.policiesRef, 0.4, { opacity:0 }, "-=0.8")
     }
 
+
     menuTweenClick = (e) => {
-        e.preventDefault()
+        // e.preventDefault()
         this.menuTween.reversed() ? this.menuTween.play() : this.menuTween.reverse();
-        this.props.menuToggleHandler()
+        this.props.menuLogoToggleHandler()
     }
+
 
     render() {
         return (
@@ -221,31 +223,41 @@ class Menu extends Component {
                     {/* Nav Options */}
                     <nav>
                         <NavListStyle>
+
                             <NavItemStyle className="navItemTweenRef">
                                 <NavLinkStyle  
-                                    active 
-                                    href={"#incio"} 
-                                    onClick={ () => this.menuTween.reverse()} 
-                                    onMouseEnter={this.props.menuToggleHandler} 
-                                    onMouseLeave={this.props.menuToggleHandler}
+                                    to="/"
+                                    onClick={ this.menuTweenClick } 
+                                    exact
+                                    // activeClassName="navActive"
+                                    // onMouseEnter={this.props.menuLogoToggleHandler} 
+                                    // onMouseLeave={this.props.menuLogoToggleHandler}
                                 >
                                     Inicio
                                 </NavLinkStyle>
                             </NavItemStyle>
+
                             <NavItemStyle className="navItemTweenRef">
-                                <NavLinkStyle href={"#talent"}>Modelos</NavLinkStyle>
+                                <NavLinkStyle  
+                                    to="/modelos/" 
+                                    onClick={ this.menuTweenClick } 
+                                    // activeClassName="navActive"
+                                >
+                                    Modelos
+                                </NavLinkStyle>
+                            </NavItemStyle>
+
+                            <NavItemStyle className="navItemTweenRef">
+                                <NavLinkStyle to="/become-a-model/" >Become A Model</NavLinkStyle>
                             </NavItemStyle>
                             <NavItemStyle className="navItemTweenRef">
-                                <NavLinkStyle href={"#becomeamodel"}>Become A Model</NavLinkStyle>
+                                <NavLinkStyle to="/noticias/" >Noticias</NavLinkStyle>
                             </NavItemStyle>
                             <NavItemStyle className="navItemTweenRef">
-                                <NavLinkStyle href={"#freshnews"}>Noticias</NavLinkStyle>
+                                <NavLinkStyle to="/sobre-nosotros/" >Sobre Nosotros</NavLinkStyle>
                             </NavItemStyle>
                             <NavItemStyle className="navItemTweenRef">
-                                <NavLinkStyle href={"#aboutus"}>Sobre Nosotros</NavLinkStyle>
-                            </NavItemStyle>
-                            <NavItemStyle className="navItemTweenRef">
-                                <NavLinkStyle href={"#contact"}>Contacto</NavLinkStyle>
+                                <NavLinkStyle to="/contacto/" >Contacto</NavLinkStyle>
                             </NavItemStyle>
                         </NavListStyle>
                     </nav>
