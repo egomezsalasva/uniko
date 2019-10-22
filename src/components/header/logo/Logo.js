@@ -13,7 +13,7 @@ const LogoStyle = styled.img`
     position: fixed;
     left: ${sharedStyles.w40px};
     top: ${sharedStyles.h30px};
-    z-index: 1600;
+    z-index: ${sharedStyles.zLogo};
 `
 
 //Main Component

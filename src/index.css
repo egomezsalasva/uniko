@@ -10,4 +10,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #EAE8E8;
+  
+}
+h3::selection{
+  background-color: #030303; 
+}  
+
+a.active{
+  color: black;
+}
+
+.selectedSubmenu{
+  font-family: "Gotham-Black";
 }

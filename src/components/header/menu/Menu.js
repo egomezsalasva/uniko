@@ -18,7 +18,7 @@ const HamburgerMenuStyle = styled.div`
     background: ${sharedStyles.unikoBlack};
     width: 42px;
     height: 40px;
-    z-index: 1000;
+    z-index: ${sharedStyles.zHamburgerMenuBox};
     cursor: pointer;
 `
 const LineContainerStyle = styled.div`
@@ -53,13 +53,13 @@ const HamburgerMenuShadowStyle = styled.div`
     background: ${sharedStyles.unikoBlack};
     width: 42px;
     height: 40px;
-    z-index: 900;
+    z-index: ${sharedStyles.zHamburgerShadow};
     display: none;
 `
 //OPEN MENU
 const OpenMenuStyle = styled.div`
     position: fixed;
-    z-index: 950;
+    z-index: ${sharedStyles.zOpenMenu};
     background: ${sharedStyles.unikoBlack};
     top: 0;
     bottom: 0;
@@ -139,14 +139,16 @@ const SocialsContainerStyle = styled.div`
     transform: translateX(-50%);
 `
 const SocialIconStyle = styled.img`
-    padding-right: 20px;
     opacity: 0.5;
     transition: 0.4s;
-    &:last-of-type{
-        padding-right: 0px; 
-    }
     &:hover{
         opacity: 1;
+    }
+`
+const SocialLinkStyle = styled.a`
+    padding-right: 20px;
+    &:last-of-type{
+        padding-right: 0px; 
     }
 `
 
@@ -239,7 +241,7 @@ class Menu extends Component {
 
                             <NavItemStyle className="navItemTweenRef">
                                 <NavLinkStyle  
-                                    to="/modelos/" 
+                                    to="/modelos" 
                                     onClick={ this.menuTweenClick } 
                                     // activeClassName="navActive"
                                 >
@@ -264,9 +266,8 @@ class Menu extends Component {
 
                     {/* Socials Options */}
                     <SocialsContainerStyle ref={div => this.socialsRef = div}>
-                        <SocialIconStyle src={instagramIcon} />
-                        <SocialIconStyle src={vimeoIcon} />
-                        {/* <SocialIconStyle src={twitterIcon} /> */}
+                        <SocialLinkStyle href="https://www.instagram.com/unikomodels/" target="_blank"><SocialIconStyle src={instagramIcon} /></SocialLinkStyle>
+                        <SocialLinkStyle href="https://vimeo.com/user17343918" target="_blank"><SocialIconStyle src={vimeoIcon} /></SocialLinkStyle>
                     </SocialsContainerStyle>
 
                     {/* Policies Options */}

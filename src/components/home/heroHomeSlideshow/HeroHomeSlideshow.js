@@ -1,5 +1,6 @@
 //Library Imports
 import React, {Component, Fragment} from 'react'
+import { Link } from "react-router-dom"
 import styled from 'styled-components'
 import { TimelineMax } from 'gsap/all'
 //Style Imports
@@ -18,7 +19,7 @@ import photoPressHero05 from '../../../assets/images/heroSlideshow/photoPressHer
 
 
 //Styles
-const HeroModelsContainerStyle = styled.a`
+const HeroModelsContainerStyle = styled(Link)`
     position: absolute;
     width: 50vw;
     height: 100vh;
@@ -83,6 +84,53 @@ const HeroPressTitleStyle = styled.h2`
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: ${sharedStyles.unikoBlack};
 `
+const HeroModelsOverlayContainerStyle = styled.div`
+    position: absolute;
+    left: -50vw;
+    background: black;
+    width: 50vw;
+    height: 100vh;
+    z-index: 1000;
+`
+const HeroModelsFemaleContainerStyle = styled(Link)`
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50vh;
+`
+const HeroModelsMaleContainerStyle = styled(Link)`
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50vh;
+`
+const HeroGenderTitleStyle = styled.h2`
+    position: absolute;
+    /* bottom: ${sharedStyles.h40px};
+    right: ${sharedStyles.w40px}; */
+    font-family: "Gotham-Black";
+    font-size: 50px;
+    line-height: 50px;
+    color: rgba(252,252,252,0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: ${sharedStyles.unikoWhite};
+`
+const HeroFemaleTitleStyle = styled(HeroGenderTitleStyle)`
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+   
+`
+const HeroMaleTitleStyle = styled(HeroGenderTitleStyle)`
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+`
+
 
 //Data
 const slideshowModelsImageList = [
@@ -114,28 +162,42 @@ let mouseCounterPress = 0
 //Main Component
 class HeroHomeSlideshow extends Component {
 
+    //Initializers
     constructor(props){
         super(props);
         // reference to the DOM node
         this.heroModelsTitleRef = null
         this.heroPressTitleRef = null
+        this.heroModelsOverlayRef = null
+        this.heroFemaleTitleRef = null
+        this.heroMaleTitleRef = null
         // reference to the animation
         this.heroModelsTween = null
         this.heroPressTween = null
+        this.heroModelsOverlayTween = null
+        this.heroFemaleTween = null
+        this.heroMaleTween = null
     }
 
-
+    //Animations
     componentDidMount(){
-
+        //HeroOptions
         this.heroModelsTween = new TimelineMax({ paused: true, reversed: true })
             this.heroModelsTween.to( this.heroModelsTitleRef, 0.4, { color: "rgba(252,252,252,1)" } )
-        
         this.heroPressTween = new TimelineMax({ paused: true, reversed: true })
             this.heroPressTween.to( this.heroPressTitleRef, 0.4, { color:  "rgba(3,3,3,1)" } )
 
+        //HeroModalOptions
+        this.heroModelsOverlayTween = new TimelineMax({ paused: true, reversed: true })
+            this.heroModelsOverlayTween.to( this.heroModelsOverlayRef, 0.4, { left: "0" } )
+        //HeroSubOptions
+        this.heroFemaleTween = new TimelineMax({ paused: true, reversed: true })
+            this.heroFemaleTween.to( this.heroFemaleTitleRef, 0.4, { color: "rgba(252,252,252,1)" } )
+        this.heroMaleTween = new TimelineMax({ paused: true, reversed: true })
+            this.heroMaleTween.to( this.heroMaleTitleRef, 0.4, { color: "rgba(252,252,252,1)" } )
     }
 
-
+    //MousemoveSlider
     slideModelsImage = () => {
         //Track Pixels moved by mouse
         mouseCounterModel ++
@@ -155,8 +217,6 @@ class HeroHomeSlideshow extends Component {
             indexOfModelImages = 0
         }
     }
-
-
     slidePressImage = () => {
         //Track Pixels moved by mouse
         mouseCounterPress ++
@@ -181,10 +241,26 @@ class HeroHomeSlideshow extends Component {
     render(){
         return (
             <Fragment>
+                <HeroModelsOverlayContainerStyle ref={div => this.heroModelsOverlayRef = div}>
+                    <HeroModelsFemaleContainerStyle 
+                        onMouseEnter = { () => { this.heroFemaleTween.play()} }
+                        onMouseLeave = { () => { this.heroFemaleTween.reverse()} } 
+                        to="/female" 
+                    >
+                            <HeroFemaleTitleStyle ref={div => this.heroFemaleTitleRef = div}>Female</HeroFemaleTitleStyle>
+                    </HeroModelsFemaleContainerStyle>
+                    <HeroModelsMaleContainerStyle 
+                        onMouseEnter = { () => { this.heroMaleTween.play()} }
+                        onMouseLeave = { () => { this.heroMaleTween.reverse()} } 
+                        to="/male"
+                    >
+                            <HeroMaleTitleStyle ref={div => this.heroMaleTitleRef = div}>Male</HeroMaleTitleStyle>
+                    </HeroModelsMaleContainerStyle>
+                </HeroModelsOverlayContainerStyle>
                 <HeroModelsContainerStyle 
                     onMouseEnter = { () => { this.heroModelsTween.play()} }
-                    onMouseLeave = { () => { this.heroModelsTween.reverse()}}  
-                    href="#models"
+                    onMouseLeave = { () => { this.heroModelsTween.reverse()}}
+                    onClick = { () => { this.heroModelsOverlayTween.play()}}
                 >
                     <HeroModelsImageStyle 
                         src={photoModelHero01} 

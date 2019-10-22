@@ -19,7 +19,7 @@ const SearchboxStyle = styled.div`
     background: ${sharedStyles.unikoBlack};
     width: 42px;
     height: 40px;
-    z-index: 1500;
+    z-index: ${sharedStyles.zSearchbox};
     cursor: pointer;
 `
 const MagnifyingGlassIconStyle = styled.img`
@@ -50,13 +50,13 @@ const SearchboxShadowStyle = styled.div`
     background: ${sharedStyles.unikoBlack};
     width: 42px;
     height: 40px;
-    z-index: 1490;
+    z-index: ${sharedStyles.zSearchboxShadow};
     cursor: pointer;
     display: none;
 `
 const OpenDirectoryStyle = styled.div`
     position: absolute;
-    z-index: 1490;
+    z-index: ${sharedStyles.zOpenDirectory};
     background: ${sharedStyles.unikoBlack};
     top: 0;
     bottom: 0;
@@ -132,11 +132,11 @@ class Searchbar extends Component {
     componentDidMount(){
         this.searchTween = new TimelineMax({ paused: true, reversed: true })
             this.searchTween.to(this.searchboxShadowRef, 0.4, {top: 0, right: 0, width: "100vw", height: "100vh", transformOrigin: "center", display: "block" })
-            this.searchTween.to(this.searchboxRef, 0.8, { width: "440px", zIndex: "1550", borderBottom: "2px solid white" })
+            this.searchTween.to(this.searchboxRef, 0.8, { width: "440px", zIndex: sharedStyles.zSearchboxActive, borderBottom: "2px solid white" })
             this.searchTween.to(this.filterInputRef, 0.0, { display: "block" })
 
 
-            this.searchTween.to(this.openDirectoryRef, 0.0, {display: "block", zIndex: "1500"})
+            this.searchTween.to(this.openDirectoryRef, 0.0, {display: "block", zIndex: sharedStyles.zSearchboxDirectory })
             this.searchTween.fromTo(this.openDirectoryRef, 0.4, { opacity:0 }, { opacity: 1 }, "-=0.4")
     }
 

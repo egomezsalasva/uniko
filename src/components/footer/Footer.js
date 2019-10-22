@@ -20,7 +20,7 @@ const ArrowFooterBoxStyle = styled.div`
     background: ${sharedStyles.unikoBlack};
     width: 42px;
     height: 40px;
-    z-index: 150;
+    z-index: ${sharedStyles.zArrowFooterBox};
     cursor: pointer;
 `
 const ArrowFooterStyle = styled.img`
@@ -42,7 +42,7 @@ const OpenFooterContainerStyle = styled.div`
     //right: 0;
     //bottom: -332px;
     bottom: ${sharedStyles.h30px};
-    z-index: 100;
+    z-index: ${sharedStyles.zOpenFooterContainer};
 `
 const OpenFooterContentStyle = styled.div`
     position: absolute;
@@ -51,7 +51,7 @@ const OpenFooterContentStyle = styled.div`
     left: ${sharedStyles.w100px};
     right: ${sharedStyles.w100px};
     bottom: 40px;
-    z-index: 100;
+    z-index: ${sharedStyles.zOpenFooterContent};
     display: none;
     opacity: 0;
 `
@@ -84,6 +84,7 @@ const SubscribeTsCsTextStyle = styled.label`
 `
 const SubscribeTsCsCheckboxStyle = styled.input`
     position: absolute;
+    cursor: pointer;
     opacitiy: 0;
     appearance: none;
     -webkit-appearance: none;
@@ -184,11 +185,13 @@ const SocialsFooterContainerStyle = styled.div`
     bottom: 0px;
     left: 43.0555556vw;
 `
-const SocialIconStyle = styled.img`
+const SocialLinkStyle = styled.a`
     padding-right: 20px;
     &:last-of-type{
         padding-right: 0px; 
     }
+`
+const SocialIconStyle = styled.img`
     transition: 0.4s;
     opacity: 0.5;
     &:hover{
@@ -204,7 +207,7 @@ const ContactFooterTitleStyle = styled(SubscribeFooterTitleStyle)`
 const ContactFooterTextStyle = styled.div`
     position: relative;
     top: calc(20px + 2px + 30px);
-    font-family: Gotham-Bold;
+    font-family: "Gotham-Bold";
     font-size: 13px;
     line-height: 24px;
     font-family: "Gotham-Bold";
@@ -299,7 +302,7 @@ class Footer extends Component {
                             <SubscribeTsCsContainerStyle>
                                 <SubscribeTsCsTextStyle>
                                     Suscríbete a nuestra newsletter<br/>
-                                    Pero antes, es imprescindible  que aceptes los <Link><span>Términos y Condiciones</span></Link>
+                                    Pero antes, es imprescindible  que aceptes los <Link to="/terminos-y-condiciones/"><span>Términos y Condiciones</span></Link>
                                 </SubscribeTsCsTextStyle>
                                 <SubscribeTsCsCheckboxStyle type="checkbox" id="termsAndConditions" name="termsAndConditions" value="termsAndConditions" /> 
                             </SubscribeTsCsContainerStyle>
@@ -341,8 +344,8 @@ class Footer extends Component {
 
 
                         <SocialsFooterContainerStyle>
-                            <SocialIconStyle src={instagramIcon} />
-                            <SocialIconStyle src={vimeoIcon} />
+                            <SocialLinkStyle href="https://www.instagram.com/unikomodels/" target="_blank"><SocialIconStyle src={instagramIcon} /></SocialLinkStyle>
+                            <SocialLinkStyle href="https://vimeo.com/user17343918" target="_blank"><SocialIconStyle src={vimeoIcon} /></SocialLinkStyle>
                         </SocialsFooterContainerStyle>
 
                     </OpenFooterContentStyle>
