@@ -7,6 +7,7 @@ import * as sharedStyles from '../../data/sharedStyles'
 //Data Imports
 import MODEL_DB from '../../data/MODEL_DB'
 import SubMenuModelsGrid from './SubMenuModelGrid';
+import LogoBlack from '../header/logo/LogoBlack';
 
 
 const ModelGridStyle = styled.div`
@@ -64,6 +65,7 @@ class ModelGridMaleTimeless extends Component {
 
         return (
             <>
+            <LogoBlack />
             <SubMenuModelsGrid activeMaleState="true" />
             <ModelGridStyle>
                 {MODEL_DB_MALE_TIMELESS.map( (model, i) => {

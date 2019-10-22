@@ -8,6 +8,8 @@ import * as sharedStyles from '../../../data/sharedStyles'
 //Image Imports
 import instagramIcon from '../../../assets/logos&icons/instagramWhite.svg'
 import vimeoIcon from '../../../assets/logos&icons/vimeoWhite.svg'
+//Component Imports
+import LogoStroke from '../logo/LogoStroke'
 
 
 //Styles
@@ -195,7 +197,7 @@ class Menu extends Component {
     menuTweenClick = (e) => {
         // e.preventDefault()
         this.menuTween.reversed() ? this.menuTween.play() : this.menuTween.reverse();
-        this.props.menuLogoToggleHandler()
+        // this.props.menuLogoToggleHandler()
     }
 
 
@@ -216,6 +218,8 @@ class Menu extends Component {
 
                 {/* Open Menu */}
                 <OpenMenuStyle ref={div => this.openNavRef = div}>
+
+                    <LogoStroke />
 
                     {/* Language Options */}
                     <LanguageContainerStyle ref={div => this.languagesRef = div}>

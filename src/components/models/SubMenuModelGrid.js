@@ -97,7 +97,7 @@ class SubMenuModelsGrid extends Component {
                                 <SubmenuFilterOptionStyle to="#" activeStyle={{ fontFamily: "Gotham-Black" }} >Mainboard</SubmenuFilterOptionStyle>  |{" "}
                                 <SubmenuFilterOptionStyle to="/female/new-faces" activeStyle={{ fontFamily: "Gotham-Black" }}>New Faces</SubmenuFilterOptionStyle> |{" "} 
                                 <SubmenuFilterOptionStyle to="/female/curvy" activeStyle={{ fontFamily: "Gotham-Black" }} >Curvy</SubmenuFilterOptionStyle> |{" "}
-                                <SubmenuFilterOptionStyle to="/female/timeless" activeStyle={{ fontFamily: "Gotham-Black" }} >Timeless</SubmenuFilterOptionStyle>
+                                <SubmenuFilterOptionStyle to="/female/women" activeStyle={{ fontFamily: "Gotham-Black" }} >Women</SubmenuFilterOptionStyle>
                             </SubmenuFilterContainerStyle>
                         </SubmenuRowContainerStyle>
 
@@ -111,7 +111,7 @@ class SubMenuModelsGrid extends Component {
                                 <SubmenuFilterOptionStyle to="#" activeStyle={{ fontFamily: "Gotham-Black" }} >Mainboard</SubmenuFilterOptionStyle> |{" "}
                                 <SubmenuFilterOptionStyle to="/male/new-faces" activeStyle={{ fontFamily: "Gotham-Black" }} >New Faces</SubmenuFilterOptionStyle> |{" "}
                                 <SubmenuFilterOptionStyle to="/male/curvy" activeStyle={{ fontFamily: "Gotham-Black" }} >Curvy</SubmenuFilterOptionStyle> |{" "}
-                                <SubmenuFilterOptionStyle to="/male/timeless" activeStyle={{ fontFamily: "Gotham-Black" }} >Timeless</SubmenuFilterOptionStyle>
+                                <SubmenuFilterOptionStyle to="/male/men" activeStyle={{ fontFamily: "Gotham-Black" }} >Men</SubmenuFilterOptionStyle>
                             </SubmenuFilterContainerStyle>
                         </SubmenuRowContainerStyle>
                                 

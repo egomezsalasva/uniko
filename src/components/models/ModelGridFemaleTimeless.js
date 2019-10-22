@@ -1,12 +1,14 @@
 //Library Imports
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 //Style Imports
 import * as sharedStyles from '../../data/sharedStyles'
 //Data Imports
 import MODEL_DB from '../../data/MODEL_DB'
-import SubMenuModelsGrid from './SubMenuModelGrid';
+import SubMenuModelsGrid from './SubMenuModelGrid'
+//Component Imports
+import LogoBlack from '../header/logo/LogoBlack'
 
 
 const ModelGridStyle = styled.div`
@@ -64,6 +66,7 @@ class ModelGridFemaleTimeless extends Component {
 
         return (
             <>
+            <LogoBlack />
             <SubMenuModelsGrid activeFemaleState="true" />
             <ModelGridStyle>
                 {MODEL_DB_FEMALE_TIMELESS.map( (model, i) => {

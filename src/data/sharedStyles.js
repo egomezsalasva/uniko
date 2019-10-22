@@ -63,7 +63,7 @@ const zSearchboxDirectory = 2500;
 //--2500
 const zSearchboxActive = 2550;
 //--3000
-const zLogo = 3000;
+const zLogo = 1000;
 const zBlackLogo = 3000;
 
 
