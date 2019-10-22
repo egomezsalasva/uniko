@@ -60,7 +60,7 @@ class ModelGridMaleAll extends Component {
 
         return (
             <>
-            <SubMenuModelsGrid />
+            <SubMenuModelsGrid activeMaleState="true" />
             <ModelGridStyle>
                 {MODEL_DB_MALE_ALL.map( (model, i) => {
                     const whiteSpaceRegEx = / /g;

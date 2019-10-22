@@ -75,8 +75,7 @@ const SubmenuLineStyle = styled.div`
     opacity: ${props => props.active ? "1" : "0" };
 `
 const SubmenuFilterContainerStyle = styled.div`
-    display: inline-block;
-    opacity: ${props => props.active ? "1" : "0" };
+    display: ${props => props.active ? "inline-block" : "none" };
 `
 const SubmenuFilterOptionStyle = styled(NavLink)`
     display: inline-block;
@@ -101,15 +100,6 @@ class SubMenuModelsGrid extends Component {
                 <SubMenuModelsBackgroundStyle>
                     <SubmenuContainerStyle>
 
-                        {/* <SubmenuRowContainerStyle>
-                            <SubmenuOptionStyle to="/modelos/all" active="true" activeStyle={{ fontFamily: "Gotham-Black" }} >All</SubmenuOptionStyle>
-                            <SubmenuLineContainerStyle>
-                                <SubmenuLineStyle active="true"></SubmenuLineStyle>
-                            </SubmenuLineContainerStyle>
-                            <SubmenuFilterContainerStyle active="true">
-                                <SubmenuFilterOptionStyle to="#" active="true">All</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >New Faces</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >Curvy</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >Timeless</SubmenuFilterOptionStyle>
-                            </SubmenuFilterContainerStyle>
-                        </SubmenuRowContainerStyle> */}
 
                         <SubmenuRowContainerStyle>
                             <SubmenuOptionStyle to="/female" activeStyle={{ fontFamily: "Gotham-Black" }} >Female</SubmenuOptionStyle>
@@ -117,17 +107,25 @@ class SubMenuModelsGrid extends Component {
                                 <SubmenuLineStyle active={this.props.activeFemaleState}></SubmenuLineStyle>
                             </SubmenuLineContainerStyle>
                             <SubmenuFilterContainerStyle active={this.props.activeFemaleState}>
-                                <SubmenuFilterOptionStyle to="/female" activeStyle={{ fontFamily: "Gotham-Black" }} active={this.props.activeFemaleAllState} >All</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >Mainboard</SubmenuFilterOptionStyle>  | <SubmenuFilterOptionStyle to="#" >New Faces</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >Curvy</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >Timeless</SubmenuFilterOptionStyle>
+                                <SubmenuFilterOptionStyle to="/female" exact activeStyle={{ fontFamily: "Gotham-Black" }} >All</SubmenuFilterOptionStyle> |{" "}
+                                <SubmenuFilterOptionStyle to="#" activeStyle={{ fontFamily: "Gotham-Black" }} >Mainboard</SubmenuFilterOptionStyle>  |{" "}
+                                <SubmenuFilterOptionStyle to="/female/new-faces" activeStyle={{ fontFamily: "Gotham-Black" }}>New Faces</SubmenuFilterOptionStyle> |{" "} 
+                                <SubmenuFilterOptionStyle to="/female/curvy" activeStyle={{ fontFamily: "Gotham-Black" }} >Curvy</SubmenuFilterOptionStyle> |{" "}
+                                <SubmenuFilterOptionStyle to="/female/timeless" activeStyle={{ fontFamily: "Gotham-Black" }} >Timeless</SubmenuFilterOptionStyle>
                             </SubmenuFilterContainerStyle>
                         </SubmenuRowContainerStyle>
 
                         <SubmenuRowContainerStyle>
                             <SubmenuOptionStyle to="/male" activeStyle={{ fontFamily: "Gotham-Black" }} >Male</SubmenuOptionStyle>
                             <SubmenuLineContainerStyle>
-                                <SubmenuLineStyle></SubmenuLineStyle>
+                                <SubmenuLineStyle active={this.props.activeMaleState}></SubmenuLineStyle>
                             </SubmenuLineContainerStyle>
-                            <SubmenuFilterContainerStyle>
-                                <SubmenuFilterOptionStyle to="#" >All</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >New Faces</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >Curvy</SubmenuFilterOptionStyle> | <SubmenuFilterOptionStyle to="#" >Timeless</SubmenuFilterOptionStyle>
+                            <SubmenuFilterContainerStyle active={this.props.activeMaleState}>
+                                <SubmenuFilterOptionStyle to="/male" exact activeStyle={{ fontFamily: "Gotham-Black" }} >All</SubmenuFilterOptionStyle> |{" "}
+                                <SubmenuFilterOptionStyle to="#" activeStyle={{ fontFamily: "Gotham-Black" }} >Mainboard</SubmenuFilterOptionStyle> |{" "}
+                                <SubmenuFilterOptionStyle to="/male/new-faces" activeStyle={{ fontFamily: "Gotham-Black" }} >New Faces</SubmenuFilterOptionStyle> |{" "}
+                                <SubmenuFilterOptionStyle to="/male/curvy" activeStyle={{ fontFamily: "Gotham-Black" }} >Curvy</SubmenuFilterOptionStyle> |{" "}
+                                <SubmenuFilterOptionStyle to="/male/timeless" activeStyle={{ fontFamily: "Gotham-Black" }} >Timeless</SubmenuFilterOptionStyle>
                             </SubmenuFilterContainerStyle>
                         </SubmenuRowContainerStyle>
                             

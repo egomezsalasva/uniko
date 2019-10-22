@@ -51,18 +51,22 @@ const ModelNameCardStyle = styled.h3`
 
 
 //Main Component
-class ModelGridFemaleAll extends Component {
+class ModelGridMaleCurvy extends Component {
     render(){
 
-        let MODEL_DB_FEMALE_ALL = MODEL_DB.filter( model => {
-            return model.gender === "female"
+        let MODEL_DB_MALE_ALL = MODEL_DB.filter( model => {
+            return model.gender === "male"
+        })
+
+        let MODEL_DB_MALE_CURVY = MODEL_DB_MALE_ALL.filter( model => {
+            return model.curvy === true
         })
 
         return (
             <>
-            <SubMenuModelsGrid activeFemaleState="true" />
+            <SubMenuModelsGrid activeMaleState="true" />
             <ModelGridStyle>
-                {MODEL_DB_FEMALE_ALL.map( (model, i) => {
+                {MODEL_DB_MALE_CURVY.map( (model, i) => {
                     const whiteSpaceRegEx = / /g;
                     let modelSrc = model.name.replace(whiteSpaceRegEx, "-").toLowerCase()
                     const firstName = model.name.split(" ")[0]
@@ -85,7 +89,7 @@ class ModelGridFemaleAll extends Component {
 
 
 //Export
-export default ModelGridFemaleAll;
+export default ModelGridMaleCurvy;
 
 
 

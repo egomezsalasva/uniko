@@ -51,18 +51,22 @@ const ModelNameCardStyle = styled.h3`
 
 
 //Main Component
-class ModelGridFemaleAll extends Component {
+class ModelGridFemaleNewFaces extends Component {
     render(){
 
         let MODEL_DB_FEMALE_ALL = MODEL_DB.filter( model => {
             return model.gender === "female"
         })
 
+        let MODEL_DB_FEMALE_NEW_FACES = MODEL_DB_FEMALE_ALL.filter( model => {
+            return model.newInIndustry === true
+        })
+
         return (
             <>
             <SubMenuModelsGrid activeFemaleState="true" />
             <ModelGridStyle>
-                {MODEL_DB_FEMALE_ALL.map( (model, i) => {
+                {MODEL_DB_FEMALE_NEW_FACES.map( (model, i) => {
                     const whiteSpaceRegEx = / /g;
                     let modelSrc = model.name.replace(whiteSpaceRegEx, "-").toLowerCase()
                     const firstName = model.name.split(" ")[0]
@@ -85,7 +89,7 @@ class ModelGridFemaleAll extends Component {
 
 
 //Export
-export default ModelGridFemaleAll;
+export default ModelGridFemaleNewFaces;
 
 
 
