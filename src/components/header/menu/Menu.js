@@ -241,11 +241,19 @@ class Menu extends Component {
 
                             <NavItemStyle className="navItemTweenRef">
                                 <NavLinkStyle  
-                                    to="/modelos" 
+                                    to="/female" 
                                     onClick={ this.menuTweenClick } 
                                     // activeClassName="navActive"
                                 >
-                                    Modelos
+                                    Female
+                                </NavLinkStyle>
+                                {" "}|{" "}
+                                <NavLinkStyle  
+                                    to="/male" 
+                                    onClick={ this.menuTweenClick } 
+                                    // activeClassName="navActive"
+                                >
+                                    Male
                                 </NavLinkStyle>
                             </NavItemStyle>
 
@@ -272,7 +280,9 @@ class Menu extends Component {
 
                     {/* Policies Options */}
                     <PoliciesContainerStyle ref={div => this.policiesRef = div}>
-                        <PoliciesLinkStyle href={"#avisolegal"}>Aviso Legal</PoliciesLinkStyle> | <PoliciesLinkStyle href={"#politicaprivacidad"}>Política de Privacidad</PoliciesLinkStyle> | <PoliciesLinkStyle href={"#politicacookies"}>Política de Cookies</PoliciesLinkStyle>
+                        <PoliciesLinkStyle href={"#avisolegal"}>Aviso Legal</PoliciesLinkStyle>{"  "}|{"  "}
+                        <PoliciesLinkStyle href={"#politicaprivacidad"}>Política de Privacidad</PoliciesLinkStyle>{" "}|{" "}
+                        <PoliciesLinkStyle href={"#politicacookies"}>Política de Cookies</PoliciesLinkStyle>
                     </PoliciesContainerStyle>
 
                 </OpenMenuStyle>
