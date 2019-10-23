@@ -245,7 +245,7 @@ class Menu extends Component {
 
                             <NavItemStyle className="navItemTweenRef">
                                 <NavLinkStyle  
-                                    to="/female" 
+                                    to="/female/mainboard" 
                                     onClick={ this.menuTweenClick } 
                                     // activeClassName="navActive"
                                 >
@@ -253,7 +253,7 @@ class Menu extends Component {
                                 </NavLinkStyle>
                                 {" "}|{" "}
                                 <NavLinkStyle  
-                                    to="/male" 
+                                    to="/male/mainboard" 
                                     onClick={ this.menuTweenClick } 
                                     // activeClassName="navActive"
                                 >

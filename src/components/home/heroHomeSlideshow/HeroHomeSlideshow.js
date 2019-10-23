@@ -245,14 +245,14 @@ class HeroHomeSlideshow extends Component {
                     <HeroModelsFemaleContainerStyle 
                         onMouseEnter = { () => { this.heroFemaleTween.play()} }
                         onMouseLeave = { () => { this.heroFemaleTween.reverse()} } 
-                        to="/female" 
+                        to="/female/mainboard" 
                     >
                             <HeroFemaleTitleStyle ref={div => this.heroFemaleTitleRef = div}>Female</HeroFemaleTitleStyle>
                     </HeroModelsFemaleContainerStyle>
                     <HeroModelsMaleContainerStyle 
                         onMouseEnter = { () => { this.heroMaleTween.play()} }
                         onMouseLeave = { () => { this.heroMaleTween.reverse()} } 
-                        to="/male"
+                        to="/male/mainboard"
                     >
                             <HeroMaleTitleStyle ref={div => this.heroMaleTitleRef = div}>Male</HeroMaleTitleStyle>
                     </HeroModelsMaleContainerStyle>
