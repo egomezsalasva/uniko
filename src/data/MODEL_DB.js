@@ -8,7 +8,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Abby Harris",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Abby",
+        surname: "Harris",
+        linkName: "abby-harris",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -59,7 +61,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Adam Ayer",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Adam",
+        surname: "Ayer",
+        linkName: "adam-ayer",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -110,7 +114,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Adrianna Barbarewicz",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Adrianna",
+        surname: "Barbarewicz",
+        linkName: "adrianna-barbarewicz",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -161,7 +167,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Afra Van Ooijen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Afra",
+        surname: "Van Ooijen",
+        linkName: "afra-van-ooijen",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -212,7 +220,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Akin Victor",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Akin",
+        surname: "Victor",
+        linkName: "akin-victor",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -263,7 +273,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Alban Wurm",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Alban",
+        surname: "Wurm",
+        linkName: "alban-wurm",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -314,7 +326,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Alex Guinot",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Alex",
+        surname: "Guinot",
+        linkName: "alex-guinot",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -365,7 +379,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Alex Ko",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Alex",
+        surname: "Ko",
+        linkName: "alex-ko",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -416,8 +432,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Alicia Herrenriech",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Alicia",
+        surname: "Herrenriech",
+        linkName: "alicia-herrenriech",
+        activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
         timeless: false,
@@ -467,7 +485,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Alina Brychka",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Alina",
+        surname: "Brychka",
+        linkName: "alina-brychka",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -518,7 +538,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Alina Krasina",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Alina",
+        surname: "Krasina",
+        linkName: "alina-krasina",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -569,7 +591,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Amaka Enem",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Amaka",
+        surname: "Enem",
+        linkName: "amaka-enem",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -620,7 +644,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Anastasia Jovanovic",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Anastasia",
+        surname: "Jovanovic",
+        linkName: "anastasia-jovanovic",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -671,7 +697,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Anastasia Saprikina",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Anastasia",
+        surname: "Saprikina",
+        linkName: "anastasia-saprikina",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -722,7 +750,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Anastasija Gavrjusenko",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Anastasija",
+        surname: "Gavrjusenko",
+        linkName: "anastasija-gavrjusenko",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -773,7 +803,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Angela Kajo",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Angela",
+        surname: "Kajo",
+        linkName: "angela-kajo",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -824,7 +856,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Aniko Michnyaova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Aniko",
+        surname: "Michnyaova",
+        linkName: "aniko-michnyaova",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -875,7 +909,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Anna-Christina Schwartz",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Anna-Christina",
+        surname: "Schwartz",
+        linkName: "anna-christina-schwartz",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -926,7 +962,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Annegrietje Franssen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Annegrietje",
+        surname: "Franssen",
+        linkName: "annegrietje-franssen",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: true,
@@ -977,7 +1015,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Annewil Hokken",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Annewil",
+        surname: "Hokken",
+        linkName: "annewil-hokken",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -1027,8 +1067,63 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Antonio Lopez",
+        firstName: "Antonio",
+        surname: "Lopez",
+        linkName: "antonio-lopez",
+        activeWithUniko: true,
+        mainboard: true,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "?",
+        eyeColour: "?",
+        //Measures Properties
+        height: 0,
+        bust: 0,
+        waist: 0,
+        hip: 0,
+        shoe: 0,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "?",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Anthony To",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Anthony",
+        surname: "To",
+        linkName: "anthony-to",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -1079,7 +1174,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Asa Stensson",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Asa",
+        surname: "Stensson",
+        linkName: "asa-stensson",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -1130,7 +1227,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Aurelien Marinangeli",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Aurelien",
+        surname: "Marinangeli",
+        linkName: "aurelien-marinangeli",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -1181,7 +1280,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Axel Swan",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Axel",
+        surname: "Swan",
+        linkName: "axel-swan",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -1235,7 +1336,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Balthazar Kloppers",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Balthazar",
+        surname: "Kloppers",
+        linkName: "balthazar-kloppers",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -1286,7 +1389,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Ben Desombre",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Ben",
+        surname: "Desombre",
+        linkName: "ben-desombre",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -1337,7 +1442,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Benjamin Kuhnemund",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Benjamin",
+        surname: "Kuhnemund",
+        linkName: "benjamin-kuhnemund",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -1388,7 +1495,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Blazej Kutyla",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Blazej",
+        surname: "Kutyla",
+        linkName: "blazej-kutyla",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -1439,7 +1548,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Bob Van Der Hoek",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Bob",
+        surname: "Van Der Hoek",
+        linkName: "bob-van-der-hoek",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -1490,7 +1601,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Brian Lachenal",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Brian",
+        surname: "Lachenal",
+        linkName: "brian-lachenal",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -1544,7 +1657,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Cami Ferreyro",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Cami",
+        surname: "Ferreyro",
+        linkName: "cami-ferreyro",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -1595,7 +1710,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Camila Giovagnoli",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Camila",
+        surname: "Giovagnoli",
+        linkName: "camila-giovagnoli",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -1646,7 +1763,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Camille Gross",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Camille",
+        surname: "Gross",
+        linkName: "camille-gross",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -1697,7 +1816,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Candide Rietdijk",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Candide",
+        surname: "Rietdijk",
+        linkName: "candide-rietdijk",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -1748,7 +1869,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Carles Fiestas",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Carles",
+        surname: "Fiestas",
+        linkName: "carles-fiestas",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -1799,7 +1922,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Carolina Barcellona",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Carolina",
+        surname: "Barcellona",
+        linkName: "carolina-barcellona",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -1850,7 +1975,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Catherine Delzenne",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Catherine",
+        surname: "Delzenne",
+        linkName: "catherine-delzenne",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -1901,7 +2028,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Cherella Timmers",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Cherella",
+        surname: "Timmers",
+        linkName: "cherella-timmers",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -1952,7 +2081,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Chiara Arbouw",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Chiara",
+        surname: "Arbouw",
+        linkName: "chiara-arbouw",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -2003,7 +2134,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Christian Canovas",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Christian",
+        surname: "Canovas",
+        linkName: "christian-canovas",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: true,
@@ -2054,7 +2187,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Christian Peters",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Christian",
+        surname: "Peters",
+        linkName: "christian-peters",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -2105,7 +2240,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Christina Rasputin",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Christina",
+        surname: "Rasputin",
+        linkName: "christina-rasputin",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -2156,7 +2293,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Christine Beutmann",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Christine",
+        surname: "Beutmann",
+        linkName: "christine-beutmann",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -2207,7 +2346,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Circe De La Rosa",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Circe",
+        surname: "De La Rosa",
+        linkName: "circe-de-la-rosa",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -2258,7 +2399,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Claire Romain",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Claire",
+        surname: "Romain",
+        linkName: "claire-romain",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -2309,7 +2452,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Claudia Szeglat",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Claudia",
+        surname: "Szeglat",
+        linkName: "claudia-szeglat",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -2360,7 +2505,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Connie Robinson",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Connie",
+        surname: "Robinson",
+        linkName: "connie-robinson",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -2411,7 +2558,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Corentin Huon",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Corentin",
+        surname: "Huon",
+        linkName: "corentin-huon",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -2462,7 +2611,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Cristina Guillen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Cristina",
+        surname: "Guillen",
+        linkName: "cristina-guillen",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -2513,7 +2664,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Cynthia Capri",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Cynthia",
+        surname: "Capri",
+        linkName: "cynthia-capri",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -2567,7 +2720,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Daan Disseldop",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Daan",
+        surname: "Disseldop",
+        linkName: "daan-disseldop",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -2618,7 +2773,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Dane Goodwin",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Dane",
+        surname: "Goodwin",
+        linkName: "dane-goodwin",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -2669,7 +2826,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Danielle Van Dam",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Danielle",
+        surname: "Van Dam",
+        linkName: "danielle-van-dam",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -2720,7 +2879,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Daphne Kooy",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Daphne",
+        surname: "Kooy",
+        linkName: "daphne-kooy",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -2771,7 +2932,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Daria Markova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Daria",
+        surname: "Markova",
+        linkName: "daria-markova",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -2822,7 +2985,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Daria Tsiar",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Daria",
+        surname: "Tsiar",
+        linkName: "daria-tsiar",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -2872,8 +3037,63 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Dave Gordon",
+        firstName: "Dave",
+        surname: "Gordon",
+        linkName: "dave-gordon",
+        activeWithUniko: true,
+        mainboard: false,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "?",
+        eyeColour: "?",
+        //Measures Properties
+        height: 0,
+        bust: 0,
+        waist: 0,
+        hip: 0,
+        shoe: 0,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "?",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Dennis Van Shuppen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Dennis",
+        surname: "Van Shuppen",
+        linkName: "dennis-van-shuppen",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -2924,7 +3144,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Diante Celeste",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Diante",
+        surname: "Celeste",
+        linkName: "diante-celeste",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -2975,7 +3197,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Dienke Rozendom",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Dienke",
+        surname: "Rozendom",
+        linkName: "dienke-rozendom",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -3026,7 +3250,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Dominic Wunsch",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Dominic",
+        surname: "Wunsch",
+        linkName: "dominic-wunsch",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3077,7 +3303,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Donata Von Behr",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Donata",
+        surname: "Von Behr",
+        linkName: "donata-von-behr",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -3128,7 +3356,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Dorian Isaacson",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Dorian",
+        surname: "Isaacson",
+        linkName: "dorian-isaacson",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -3179,7 +3409,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Dylan Van Trigt",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Dylan",
+        surname: "Van Trigt",
+        linkName: "dylan-van-trigt",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3233,7 +3465,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Eder Barral",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Eder",
+        surname: "Barral",
+        linkName: "eder-barral",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -3284,7 +3518,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Edu Roman",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Edu",
+        surname: "Roman",
+        linkName: "edu-roman",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3335,7 +3571,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Eduard Domenech",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Eduard",
+        surname: "Domenech",
+        linkName: "eduard-domenech",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3386,7 +3624,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Eduard Torres",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Eduard",
+        surname: "Torres",
+        linkName: "eduard-torres",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3437,7 +3677,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Elee Nova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Elee",
+        surname: "Nova",
+        linkName: "elee-nova",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -3488,7 +3730,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Elise Vant Zand",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Elise",
+        surname: "Vant Zand",
+        linkName: "elise-vant-zand",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3539,8 +3783,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Eliza Musial",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Eliza",
+        surname: "Musial",
+        linkName: "eliza-musial",
+        activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
         timeless: false,
@@ -3590,7 +3836,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Ema Brenkusova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Ema",
+        surname: "Brenkusova",
+        linkName: "ema-brenkusova",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3641,7 +3889,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Emily Barbe",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Emily",
+        surname: "Barbe",
+        linkName: "emily-barbe",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3692,8 +3942,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Estel Castelló",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Estel",
+        surname: "Castelló",
+        linkName: "estel-castello",
+        activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
         timeless: false,
@@ -3743,7 +3995,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Eva Perfido",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Eva",
+        surname: "Perfido",
+        linkName: "eva-perfido",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3794,7 +4048,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Evy Markovits",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Evy",
+        surname: "Markovits",
+        linkName: "evy-markovits",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -3845,7 +4101,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Ezequiel Sisterna",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Ezequiel",
+        surname: "Sisterna",
+        linkName: "ezequiel-sisterna",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -3899,7 +4157,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Fabricio Zunino",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Fabricio",
+        surname: "Zunino",
+        linkName: "fabricio-zunino",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -3950,7 +4210,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Felicia Parent",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Felicia",
+        surname: "Parent",
+        linkName: "felicia-parent",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -4000,8 +4262,63 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Felicity Peel",
+        firstName: "Felicity",
+        surname: "Peel",
+        linkName: "felicity-peel",
+        activeWithUniko: true,
+        mainboard: true,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "?",
+        eyeColour: "?",
+        //Measures Properties
+        height: 0,
+        bust: 0,
+        waist: 0,
+        hip: 0,
+        shoe: 0,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "?",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Fenna Palsma",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Fenna",
+        surname: "Palsma",
+        linkName: "fenna-palsma",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -4052,7 +4369,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Florence Eugene",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Florence",
+        surname: "Eugene",
+        linkName: "florence-eugene",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -4103,7 +4422,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Florence Schreinemachers",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Florence",
+        surname: "Schreinemachers",
+        linkName: "florence-schreinemachers",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -4154,7 +4475,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Fran Osornio",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Fran",
+        surname: "Osornio",
+        linkName: "fran-osornio",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -4205,7 +4528,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Francesco Cuizza",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Francesco",
+        surname: "Cuizza",
+        linkName: "francesco-cuizza",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -4256,7 +4581,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Franziska Klein",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Franziska",
+        surname: "Klein",
+        linkName: "franziska-klein",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -4307,7 +4634,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Frederique Brons",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Frederique",
+        surname: "Brons",
+        linkName: "frederique-brons",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -4361,7 +4690,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Gabriela Cruz",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Gabriela",
+        surname: "Cruz",
+        linkName: "gabriela-cruz",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -4412,7 +4743,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Gia Lily",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Gia",
+        surname: "Lily",
+        linkName: "gia-lily",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -4466,7 +4799,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Hanna Buklaha",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Hanna",
+        surname: "Buklaha",
+        linkName: "hanna-buklaha",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -4520,8 +4855,11 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Iñaki Benito",
+        firstName: "Iñaki",
+        surname: "Benito",
+        linkName: "inaki-benito",
         //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
         timeless: true,
@@ -4571,8 +4909,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Indira Toraní",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Indira",
+        surname: "Toraní",
+        linkName: "indira-torani",
+        activeWithUniko: true,
         mainboard: true,
         newInIndustry: true,
         timeless: false,
@@ -4622,7 +4962,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Irene Lorenzon",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Irene",
+        surname: "Lorenzon",
+        linkName: "irene-lorenzon",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -4673,7 +5015,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Irina Soldevila",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Irina",
+        surname: "Soldevila",
+        linkName: "irina-soldevila",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -4724,7 +5068,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Isabel Rijk",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Isabel",
+        surname: "Rijk",
+        linkName: "isabel-rijk",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -4775,7 +5121,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Isabella De Candia",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Isabella",
+        surname: "De Candia",
+        linkName: "isabella-de-candia",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -4826,7 +5174,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Isadee Jansen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Isadee",
+        surname: "Jansen",
+        linkName: "isadee-jansen",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -4877,7 +5227,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Iskamella Risiomara",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Iskamella",
+        surname: "Risiomara",
+        linkName: "iskamella-risiomara",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -4931,7 +5283,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jaime Guillen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jaime",
+        surname: "Guillen",
+        linkName: "jaime-guillen",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -4982,7 +5336,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jan Zdulski",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jan",
+        surname: "Zdulski",
+        linkName: "jan-zdulski",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -5033,8 +5389,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jana Balcázar",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Jana",
+        surname: "Balcázar",
+        linkName: "jana-balcazar",
+        activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
         timeless: false,
@@ -5084,7 +5442,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Janis Danner",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Janis",
+        surname: "Danner",
+        linkName: "janis-danner",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -5135,7 +5495,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Janneke Van Opstal",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Janneke",
+        surname: "Van Opstal",
+        linkName: "janneke-van-opstal",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -5186,7 +5548,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jannik Knopp",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jannik",
+        surname: "Knopp",
+        linkName: "jannik-knopp",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5237,7 +5601,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Janouk Van Beek",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Janouk",
+        surname: "Van Beek",
+        linkName: "janouk-van-beek",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5288,7 +5654,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jasmin Hartmann",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jasmin",
+        surname: "Hartmann",
+        linkName: "jasmin-hartmann",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5339,7 +5707,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Javier Moreno",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Javier",
+        surname: "Moreno",
+        linkName: "javier-moreno",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -5390,7 +5760,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jens Lagenfurth",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jens",
+        surname: "Lagenfurth",
+        linkName: "jens-lagenfurth",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5441,7 +5813,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jeremy Veasey",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jeremy",
+        surname: "Veasey",
+        linkName: "jeremy-veasey",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -5492,7 +5866,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jesse Osterrieder",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jesse",
+        surname: "Osterrieder",
+        linkName: "jesse-osterrieder",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5543,7 +5919,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jey Rocher",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jey",
+        surname: "Rocher",
+        linkName: "jey-rocher",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5594,7 +5972,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jimmie Kersmo",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jimmie",
+        surname: "Kersmo",
+        linkName: "jimmie-kersmo",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -5645,7 +6025,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jip Van Soest",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jip",
+        surname: "Van Soest",
+        linkName: "jip-van-soest",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5696,7 +6078,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Joan Pastor",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Joan",
+        surname: "Pastor",
+        linkName: "joan-pastor",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5747,7 +6131,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Joan Pedrola",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Joan",
+        surname: "Pedrola",
+        linkName: "joan-pedrola",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5798,7 +6184,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jolanda Van Der Linden",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jolanda",
+        surname: "Van Der Linden",
+        linkName: "jolanda-van-der-linden",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -5849,7 +6237,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jonas Rosenbauer",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jonas",
+        surname: "Rosenbauer",
+        linkName: "jonas-rosenbauer",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -5900,7 +6290,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jordi Rosello",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jordi",
+        surname: "Rosello",
+        linkName: "jordi-rosello",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -5951,7 +6343,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jorge Roman",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jorge",
+        surname: "Roman",
+        linkName: "jorge-roman",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6002,7 +6396,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Joyce Groen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Joyce",
+        surname: "Groen",
+        linkName: "joyce-groen",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6053,7 +6449,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Judit Oms",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Judit",
+        surname: "Oms",
+        linkName: "judit-oms",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6104,7 +6502,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Juli Teres",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Juli",
+        surname: "Teres",
+        linkName: "juli-teres",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6155,7 +6555,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Julia Rath",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Julia",
+        surname: "Rath",
+        linkName: "julia-rath",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6206,7 +6608,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Julie Beekman",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Julie",
+        surname: "Beekman",
+        linkName: "julie-beekman",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6257,7 +6661,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Julie Pallesen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Julie",
+        surname: "Pallesen",
+        linkName: "julie-pallesen",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6308,7 +6714,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Julie Veldhuis",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Julie",
+        surname: "Veldhuis",
+        linkName: "julie-veldhuis",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6359,7 +6767,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Jurn Decleer",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Jurn",
+        surname: "Decleer",
+        linkName: "jurn-decleer",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -6410,6 +6820,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Justina Vazgauskaite",
+        firstName: "Justina",
+        surname: "Vazgauskaite",
+        linkName: "justina-vazgauskaite",
         //introductionDate: new Date(2019, 08, 22),
         activeWithUniko: true,
         mainboard: true,
@@ -6464,7 +6877,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Karla Jorba",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Karla",
+        surname: "Jorba",
+        linkName: "karla-jorba",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: true,
@@ -6515,7 +6930,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Katarina Nemcova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Katarina",
+        surname: "Nemcova",
+        linkName: "katarina-nemcova",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6566,7 +6983,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Katharina Siekmann",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Katharina",
+        surname: "Siekmann",
+        linkName: "katharina-siekmann",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6617,7 +7036,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Kevin Pabel",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Kevin",
+        surname: "Pabel",
+        linkName: "kevin-pabel",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6668,6 +7089,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Khalil Saidane",
+        firstName: "Khalil",
+        surname: "Saidane",
+        linkName: "khalil-saidane",
         //introductionDate: new Date(2019, 08, 22),
         activeWithUniko: true,
         mainboard: true,
@@ -6719,7 +7143,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Kim Daria",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Kim",
+        surname: "Daria",
+        linkName: "kim-daria",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6770,7 +7196,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Kristina Cincurova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Kristina",
+        surname: "Cincurova",
+        linkName: "kristina-cincurova",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6824,7 +7252,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Lachelle Dechesne",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lachelle",
+        surname: "Dechesne",
+        linkName: "lachelle-dechesne",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6875,7 +7305,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Lara Leijs",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lara",
+        surname: "Leijs",
+        linkName: "lara-leijs",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6926,7 +7358,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Laura Lundgreen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Laura",
+        surname: "Lundgreen",
+        linkName: "laura-lundgreen",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -6977,7 +7411,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Lautaro Garcia",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lautaro",
+        surname: "Garcia",
+        linkName: "lautaro-garcia",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7028,8 +7464,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Léa Bonneau",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Léa",
+        surname: "Bonneau",
+        linkName: "lea-bonneau",
+        activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
         timeless: false,
@@ -7079,7 +7517,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Leonie Scheunemann",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Leonie",
+        surname: "Scheunemann",
+        linkName: "leonie-scheunemann",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7130,7 +7570,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Liam Du Plessis",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Liam",
+        surname: "Du Plessis",
+        linkName: "liam-du-plessis",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7181,7 +7623,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Lisa Maes",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lisa",
+        surname: "Maes",
+        linkName: "lisa-maes",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -7232,7 +7676,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Lisa Weggemans",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lisa",
+        surname: "Weggemans",
+        linkName: "lisa-weggemans",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7283,7 +7729,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Lize Romer",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lize",
+        surname: "Romer",
+        linkName: "lize-romer",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7334,7 +7782,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Lloyd Bartis",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lloyd",
+        surname: "Bartis",
+        linkName: "lloyd-bartis",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -7384,8 +7834,63 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Lola Brey",
+        firstName: "Lola",
+        surname: "Brey",
+        linkName: "lola-brey",
+        activeWithUniko: true,
+        mainboard: false,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "?",
+        eyeColour: "?",
+        //Measures Properties
+        height: 0,
+        bust: 0,
+        waist: 0,
+        hip: null,
+        shoe: 0,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "?",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Lottie De Jong",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lottie",
+        surname: "De Jong",
+        linkName: "lottie-de-jong",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -7435,8 +7940,63 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Lucia Alison",
+        firstName: "Lucia",
+        surname: "Alison",
+        linkName: "lucia-alison",
+        activeWithUniko: true,
+        mainboard: false,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "female",
+        hairColour: "?",
+        eyeColour: "?",
+        //Measures Properties
+        height: 0,
+        bust: 0,
+        waist: 0,
+        hip: 0,
+        shoe: 0,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "?",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Lukas Hoffmann",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Lukas",
+        surname: "Hoffmann",
+        linkName: "lukas-hoffmann",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7490,7 +8050,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Magda Cernakova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Magda",
+        surname: "Cernakova",
+        linkName: "magda-cernakova",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -7541,7 +8103,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Maia Cassani",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Maia",
+        surname: "Cassani",
+        linkName: "maia-cassani",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -7592,7 +8156,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Maja Wroblewska",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Maja",
+        surname: "Wroblewska",
+        linkName: "maja-wroblewska",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7643,7 +8209,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Malijn Pieterse",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Malijn",
+        surname: "Pieterse",
+        linkName: "malijn-pieterse",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7694,7 +8262,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Marc Jourdan",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Marc",
+        surname: "Jourdan",
+        linkName: "marc-jourdan",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -7745,7 +8315,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Marcel Glaser",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Marcel",
+        surname: "Glaser",
+        linkName: "marcel-glaser",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7796,7 +8368,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Marcos Estevez",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Marcos",
+        surname: "Estevez",
+        linkName: "marcos-estevez",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -7847,7 +8421,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Maria Leiva",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Maria",
+        surname: "Leiva",
+        linkName: "maria-leiva",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -7898,7 +8474,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Marijke Versluijs",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Marijke",
+        surname: "Versluijs",
+        linkName: "marijke-versluijs",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -7949,7 +8527,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Mario Zabal",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Mario",
+        surname: "Zabal",
+        linkName: "mario-zabal",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8000,7 +8580,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Marius Hordijk",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Marius",
+        surname: "Hordijk",
+        linkName: "marius-hordijk",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8051,7 +8633,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Marlies Smedinga",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Marlies",
+        surname: "Smedinga",
+        linkName: "marlies-smedinga",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8102,7 +8686,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Martina Werner",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Martina",
+        surname: "Werner",
+        linkName: "martina-werner",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -8153,7 +8739,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Mateo Moreno",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Mateo",
+        surname: "Moreno",
+        linkName: "mateo-moreno",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8204,7 +8792,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Matteo Murer",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Matteo",
+        surname: "Murer",
+        linkName: "matteo-murer",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -8255,7 +8845,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Matti Ceulemans",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Matti",
+        surname: "Ceulemans",
+        linkName: "matti-ceulemans",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8306,7 +8898,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Maximiliano Casedei",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Maximiliano",
+        surname: "Casedei",
+        linkName: "maximiliano-casedei",
         activeWithUniko: false,
         mainboard: false,
         newInIndustry: false,
@@ -8357,7 +8951,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "May Grootjen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "May",
+        surname: "Grootjen",
+        linkName: "may-grootjen",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -8408,7 +9004,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Meli Nunzi",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Meli",
+        surname: "Nunzi",
+        linkName: "meli-nunzi",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8459,7 +9057,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Merle Bergers",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Merle",
+        surname: "Bergers",
+        linkName: "merle-bergers",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8510,7 +9110,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Min Woo Lee",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Min",
+        surname: "Woo Lee",
+        linkName: "min-woo-lee",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -8561,7 +9163,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Mireia Agramunt",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Mireia",
+        surname: "Agramunt",
+        linkName: "mireia-agramunt",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -8612,7 +9216,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Mislene Montoro",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Mislene",
+        surname: "Montoro",
+        linkName: "mislene-montoro",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -8666,8 +9272,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Nariné Kagramanyan",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Nariné",
+        surname: "Kagramanyan",
+        linkName: "narine-kagramanyan",
+        activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
         timeless: false,
@@ -8717,7 +9325,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Ni Hao",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Ni",
+        surname: "Hao",
+        linkName: "ni-hao",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8768,7 +9378,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Nica Gimenez",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Nica",
+        surname: "Gimenez",
+        linkName: "nica-gimenez",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -8819,7 +9431,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Niclas Gonzales",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Niclas",
+        surname: "Gonzales",
+        linkName: "niclas-gonzales",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8870,7 +9484,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Nicola Cavanis",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Nicola",
+        surname: "Cavanis",
+        linkName: "nicola-cavanis",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8921,7 +9537,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Nicole Rijsdijk",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Nicole",
+        surname: "Rijsdijk",
+        linkName: "nicole-rijsdijk",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -8972,7 +9590,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Nicolle Schneider",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Nicolle",
+        surname: "Schneider",
+        linkName: "nicolle-schneider",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9023,7 +9643,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Nieves Mallor",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Nieves",
+        surname: "Mallor",
+        linkName: "nieves-mallor",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -9074,7 +9696,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Nikola Vildova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Nikola",
+        surname: "Vildova",
+        linkName: "nikola-vildova",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -9125,7 +9749,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Norton O'Donnell",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Norton",
+        surname: " O'Donnell",
+        linkName: "norton-o'donnell",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -9179,7 +9805,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Ola Dul",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Ola",
+        surname: "Dul",
+        linkName: "ola-dul",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9233,7 +9861,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Patricia Roman",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Patricia",
+        surname: "Roman",
+        linkName: "patricia-roman",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -9284,7 +9914,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Patricia Vidal",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Patricia",
+        surname: "Vidal",
+        linkName: "patricia-vidal",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9335,7 +9967,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Patrick Staal",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Patrick",
+        surname: "Staal",
+        linkName: "patrick-staal",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -9386,7 +10020,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Paula Rodriguez",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Paula",
+        surname: "Rodriguez",
+        linkName: "paula-rodriguez",
         activeWithUniko: false,
         mainboard: true,
         newInIndustry: false,
@@ -9437,7 +10073,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Paula Salort",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Paula",
+        surname: "Salort",
+        linkName: "paula-salort",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9488,7 +10126,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Paulina Erickson",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Paulina",
+        surname: "Erickson",
+        linkName: "paulina-erickson",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -9539,7 +10179,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Paulina Gluszek",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Paulina",
+        surname: "Gluszek",
+        linkName: "paulina-gluszek",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9590,8 +10232,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Piet Van Dijk",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Piet",
+        surname: "Van Dijk",
+        linkName: "piet-van-dijk",
+        activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
         timeless: true,
@@ -9644,7 +10288,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Quinten Ajenifuja",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Quinten",
+        surname: "Ajenifuja",
+        linkName: "quinten-ajenifuja",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9698,7 +10344,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Rafal Wojtysiak",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Rafal",
+        surname: "Wojtysiak",
+        linkName: "rafal-wojtysiak",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -9749,7 +10397,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Raluca Mos",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Raluca",
+        surname: "Mos",
+        linkName: "raluca-mos",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9800,8 +10450,10 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Raquel Boscá",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: false,
+        firstName: "Raquel",
+        surname: "Boscá",
+        linkName: "raquel-bosca",
+        activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
         timeless: false,
@@ -9851,7 +10503,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Raquel Jimenez",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Raquel",
+        surname: "Jimenez",
+        linkName: "raquel-jimenez",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -9902,7 +10556,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Raul Gimenez",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Raul",
+        surname: "Gimenez",
+        linkName: "raul-gimenez",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -9953,7 +10609,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Rebeca Ravina",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Rebeca",
+        surname: "Ravina",
+        linkName: "rebeca-ravina",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -10004,7 +10662,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Renske Linders",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Renske",
+        surname: "Linders",
+        linkName: "renske-linders",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10055,7 +10715,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Ric Wersig",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Ric",
+        surname: "Wersig",
+        linkName: "ric-wersig",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10106,7 +10768,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Rick Groothuizen",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Rick",
+        surname: "Groothuizen",
+        linkName: "rick-groothuizen",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10157,7 +10821,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Rodolphe Von Blon",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Rodolphe",
+        surname: "Von Blon",
+        linkName: "rodolphe-von-blon",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -10208,7 +10874,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Rosanne Swart",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Rosanne",
+        surname: "Swart",
+        linkName: "rosanne-swart",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -10259,7 +10927,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Rudi Nieuwenhuys",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Rudi",
+        surname: "Nieuwenhuys",
+        linkName: "rudi-nieuwenhuys",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10309,8 +10979,63 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Ryan Daynes",
+        firstName: "Ryan",
+        surname: "Daynes",
+        linkName: "ryan-daynes",
+        activeWithUniko: true,
+        mainboard: false,
+        newInIndustry: false,
+        timeless: false,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "?",
+        eyeColour: "?",
+        //Measures Properties
+        height: 0,
+        bust: 0,
+        waist: 0,
+        hip: 0,
+        shoe: 0,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "?",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Rym Gallardo",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Rym",
+        surname: "Gallardo",
+        linkName: "rym-gallardo",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -10364,7 +11089,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sadiq Adeshina",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sadiq",
+        surname: "Adeshina",
+        linkName: "sadiq-adeshina",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10415,7 +11142,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Samuel Savage",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Samuel",
+        surname: "Savage",
+        linkName: "samuel-savage",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10466,7 +11195,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sandra Hortelano",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sandra",
+        surname: "Hortelano",
+        linkName: "sandra-hortelano",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10517,7 +11248,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sascha Bunge",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sascha",
+        surname: "Bunge",
+        linkName: "sascha-bunge",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10568,7 +11301,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sasha Myk",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sasha",
+        surname: "Myk",
+        linkName: "sasha-myk",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10619,7 +11354,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Saskia Topp",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Saskia",
+        surname: "Topp",
+        linkName: "saskia-topp",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10670,7 +11407,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Schirin Frosch",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Schirin",
+        surname: "Frosch",
+        linkName: "schirin-frosch",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10720,59 +11459,10 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
-        name: "Sebastiaan Van Vliet",
-        //introductionDate: new Date(2019, 08, 22),
-        activeWithUniko: true,
-        mainboard: false,
-        newInIndustry: false,
-        timeless: true,
-        curvy: false,
-        inTown: false,
-        //Descriptive Properties
-        gender: "male",
-        hairColour: "red brown",
-        eyeColour: "blue",
-        //Measures Properties
-        height: 185,
-        bust: 99,
-        waist: 81,
-        hip: 101,
-        shoe: 42,
-        //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
-        //Links
-        instagramLink: "https://www.instagram.com/sebastiaanvanvliet/",
-    },
-    //NEW MODEL
-    {
-        //Agency Properties
         name: "Sebastiaan Bianchetti",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sebastiaan",
+        surname: "Bianchetti",
+        linkName: "sebastiaan-bianchetti",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10822,8 +11512,63 @@ const MODEL_DB_UNORDERED = [
     //NEW MODEL
     {
         //Agency Properties
+        name: "Sebastiaan Van Vliet",
+        firstName: "Sebastiaan",
+        surname: "Van Vliet",
+        linkName: "sebastiaan-van-vliet",
+        activeWithUniko: true,
+        mainboard: false,
+        newInIndustry: false,
+        timeless: true,
+        curvy: false,
+        inTown: false,
+        //Descriptive Properties
+        gender: "male",
+        hairColour: "red brown",
+        eyeColour: "blue",
+        //Measures Properties
+        height: 185,
+        bust: 99,
+        waist: 81,
+        hip: 101,
+        shoe: 42,
+        //Photos
+        profilePhoto: "",
+        agencyPhotos: [
+            "",
+            "",
+            "",
+        ],
+        press: [
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+                pressVideos: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                clientName: "",
+                pressPhotos: [
+                    "",
+                    "",
+                ],
+            },
+        ],
+        //Links
+        instagramLink: "https://www.instagram.com/sebastiaanvanvliet/",
+    },
+    //NEW MODEL
+    {
+        //Agency Properties
         name: "Sergi Bafa",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sergi",
+        surname: "Bafa",
+        linkName: "sergi-bafa",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -10874,7 +11619,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sergio Perez",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sergio",
+        surname: "Perez",
+        linkName: "sergio-perez",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -10925,7 +11672,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Shanna Keetelaar",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Shanna",
+        surname: "Keetelaar",
+        linkName: "shanna-keetelaar",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -10976,7 +11725,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Shenyue Ding",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Shenyue",
+        surname: "Ding",
+        linkName: "shenyue-ding",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11027,7 +11778,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sherouk Farid",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sherouk",
+        surname: "Farid",
+        linkName: "sherouk-farid",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11078,7 +11831,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Shirley Soltan",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Shirley",
+        surname: "Soltan",
+        linkName: "shirley-soltan",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11129,7 +11884,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Silvia Arenas",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Silvia",
+        surname: "Arenas",
+        linkName: "silvia-arenas",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11180,7 +11937,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sofia Romero",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sofia",
+        surname: "Romero",
+        linkName: "sofia-romero",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: true,
@@ -11231,7 +11990,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sophia Korcuskova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sophia",
+        surname: "Korcuskova",
+        linkName: "sophia-korcuskova",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11282,7 +12043,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sophie Czarnecki",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sophie",
+        surname: "Czarnecki",
+        linkName: "sophie-czarnecki",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11333,7 +12096,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Sophie Maxim",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Sophie",
+        surname: "Maxim",
+        linkName: "sophie-maxim",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11384,7 +12149,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Stijn De Jongh",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Stijn",
+        surname: "De Jongh",
+        linkName: "stijn-de-jongh",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11435,7 +12202,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Svenja Van Beek",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Svenja",
+        surname: "Van Beek",
+        linkName: "svenja-van-beek",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -11489,7 +12258,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Tess Van De Bleek",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Tess",
+        surname: "Van De Bleek",
+        linkName: "tess-van-de-bleek",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11540,7 +12311,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Tessa May",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Tessa",
+        surname: "May",
+        linkName: "tessa-may",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11591,7 +12364,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Thijs Latten",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Thijs",
+        surname: "Latten",
+        linkName: "thijs-latten",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11642,7 +12417,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Tilly Kuiper",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Tilly",
+        surname: "Kuiper",
+        linkName: "tilly-kuiper",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -11693,7 +12470,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Tiziano Sorbellini",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Tiziano",
+        surname: "Sorbellini",
+        linkName: "tiziano-sorbellini",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11744,7 +12523,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Tom Cornelisse",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Tom",
+        surname: "Cornelisse",
+        linkName: "tom-cornelisse",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11795,7 +12576,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Tom Erickson",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Tom",
+        surname: "Erickson",
+        linkName: "tom-erickson",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -11846,7 +12629,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Toma McDonagh",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Toma",
+        surname: "McDonagh",
+        linkName: "toma-mcdonagh",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11900,7 +12685,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Valerie Pasker",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Valerie",
+        surname: "Pasker",
+        linkName: "valerie-pasker",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -11951,7 +12738,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Veronika Kreuzerova",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Veronika",
+        surname: "Kreuzerova",
+        linkName: "veronika-kreuzerova",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -12002,7 +12791,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Virginia Ferreira",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Virginia",
+        surname: "Ferreira",
+        linkName: "virginia-ferreira",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -12053,7 +12844,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Virginia Pareja",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Virginia",
+        surname: "Pareja",
+        linkName: "virginia-pareja",
         activeWithUniko: true,
         mainboard: false,
         newInIndustry: false,
@@ -12104,7 +12897,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Vivien Gutmann",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Vivien",
+        surname: "Gutmann",
+        linkName: "vivien-gutmann",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -12158,7 +12953,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Xanthe Wijma",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Xanthe",
+        surname: "Wijma",
+        linkName: "xanthe-wijma",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,
@@ -12212,7 +13009,9 @@ const MODEL_DB_UNORDERED = [
     {
         //Agency Properties
         name: "Yassine Rahal",
-        //introductionDate: new Date(2019, 08, 22),
+        firstName: "Yassine",
+        surname: "Rahal",
+        linkName: "yassine-rahal",
         activeWithUniko: true,
         mainboard: true,
         newInIndustry: false,

@@ -1,13 +1,16 @@
 //Library Imports
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 //Style Imports
 import * as sharedStyles from '../../data/sharedStyles'
 //Data Imports
 import MODEL_DB from '../../data/MODEL_DB'
-import SubMenuModelsGrid from './SubMenuModelGrid';
-import LogoBlack from '../header/logo/LogoBlack';
+//Component Imports
+import LogoBlack from '../header/logo/LogoBlack'
+import SubMenuModelsGrid from './SubMenuModelGrid'
+import FooterFrame from './FooterFrame'
 
 
 const ModelGridStyle = styled.div`
@@ -20,7 +23,7 @@ const ModelGridStyle = styled.div`
     justify-content: center;
     padding-bottom: 60px;
 `
-const ModelCardStyle = styled.div`
+const ModelCardStyle = styled(Link)`
     //width: 315px;
     //width: 300px;
     width: 308px;
@@ -52,41 +55,41 @@ const ModelNameCardStyle = styled.h3`
 
 
 //Main Component
-class ModelGridFemaleMainboard extends Component {
-    render(){
+function ModelGridFemaleMainboard() {
 
-        let MODEL_DB_FEMALE_ALL = MODEL_DB.filter( model => {
-            return model.gender === "female"
-        })
+    let MODEL_DB_FEMALE_ALL = MODEL_DB.filter( model => {
+        return model.gender === "female"
+    })
 
-        let MODEL_DB_FEMALE_MAINBOARD = MODEL_DB_FEMALE_ALL.filter( model => {
-            return model.mainboard === true
-        })
+    let MODEL_DB_FEMALE_MAINBOARD = MODEL_DB_FEMALE_ALL.filter( model => {
+        return model.mainboard === true
+    })
 
-        return (
-            <>
-            <LogoBlack />
-            <SubMenuModelsGrid activeFemaleState="true" />
-            <ModelGridStyle>
-                {MODEL_DB_FEMALE_MAINBOARD.map( (model, i) => {
-                    const whiteSpaceRegEx = / /g;
-                    let modelSrc = model.name.replace(whiteSpaceRegEx, "-").toLowerCase()
-                    const firstName = model.name.split(" ")[0]
-                    const surName = model.name.split(" ").slice(1).join(' ')
-                    return (
-                        <ModelCardStyle key={i}>
-                            <ModelNameCardStyle>{firstName}<br/>{surName}</ModelNameCardStyle>
-                            <ImageCardStyle 
-                                src= {require(`../../assets/images/models/${modelSrc}/profile/0@2x.jpg`)}
-                                alt = "Profile Image"
-                            />
-                        </ModelCardStyle>
-                    )
-                })}
-            </ModelGridStyle>
-            </>
-        );
-    }
+    return (
+        <>
+        <LogoBlack />
+        <SubMenuModelsGrid activeFemaleState="true" />
+        <ModelGridStyle>
+            {MODEL_DB_FEMALE_MAINBOARD.map( (model, i) => {
+                
+                let MODEL_LINKNAME = model.linkName
+                const MODEL_NAME = model.firstName
+                const MODEL_SURNAME = model.surname
+
+                return (
+                    <ModelCardStyle key={i} to={`/models/${MODEL_LINKNAME}`}>
+                        <ModelNameCardStyle>{MODEL_NAME}<br/>{MODEL_SURNAME}</ModelNameCardStyle>
+                        <ImageCardStyle 
+                            src= {require(`../../assets/images/models/${MODEL_LINKNAME}/profile/0@2x.jpg`)}
+                            alt = "Profile Image"
+                        />
+                    </ModelCardStyle>
+                )
+            })}
+        </ModelGridStyle>
+        <FooterFrame />
+        </>
+    )
 }
 
 

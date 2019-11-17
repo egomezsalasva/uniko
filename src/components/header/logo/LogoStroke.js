@@ -16,12 +16,12 @@ const LogoStyle = styled.img`
 `
 
 //Main Component
-function LogoStroke(props) {
-  return (
-    <React.Fragment>
-      <LogoStyle src={logoWhiteBorder} />
-    </React.Fragment>
-  );
+function LogoStroke() {
+  return(
+    <>
+    <LogoStyle src={logoWhiteBorder} />
+    </>
+  )
 }
 
 

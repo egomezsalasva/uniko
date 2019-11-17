@@ -1,5 +1,5 @@
 //Library Imports
-import React, {Component, Fragment} from 'react'
+import React, {Component} from 'react'
 import { Link } from "react-router-dom"
 import styled from 'styled-components'
 import { TimelineMax } from 'gsap/all'
@@ -19,7 +19,7 @@ import photoPressHero05 from '../../../assets/images/heroSlideshow/photoPressHer
 
 
 //Styles
-const HeroModelsContainerStyle = styled(Link)`
+const HeroModelsContainerStyle = styled.div`
     position: absolute;
     width: 50vw;
     height: 100vh;
@@ -240,19 +240,20 @@ class HeroHomeSlideshow extends Component {
 
     render(){
         return (
-            <Fragment>
+            <>
+                {/* //TODO: Divide in smaller components */}
                 <HeroModelsOverlayContainerStyle ref={div => this.heroModelsOverlayRef = div}>
                     <HeroModelsFemaleContainerStyle 
                         onMouseEnter = { () => { this.heroFemaleTween.play()} }
                         onMouseLeave = { () => { this.heroFemaleTween.reverse()} } 
-                        to="/female/mainboard" 
+                        to="/models/female/mainboard" 
                     >
                             <HeroFemaleTitleStyle ref={div => this.heroFemaleTitleRef = div}>Female</HeroFemaleTitleStyle>
                     </HeroModelsFemaleContainerStyle>
                     <HeroModelsMaleContainerStyle 
                         onMouseEnter = { () => { this.heroMaleTween.play()} }
                         onMouseLeave = { () => { this.heroMaleTween.reverse()} } 
-                        to="/male/mainboard"
+                        to="/models/male/mainboard"
                     >
                             <HeroMaleTitleStyle ref={div => this.heroMaleTitleRef = div}>Male</HeroMaleTitleStyle>
                     </HeroModelsMaleContainerStyle>
@@ -282,7 +283,7 @@ class HeroHomeSlideshow extends Component {
                     />
                     <HeroPressTitleStyle ref={div => this.heroPressTitleRef = div} >Noticias</HeroPressTitleStyle>
                 </HeroPressContainerStyle>
-            </Fragment>
+            </>
         );
     }
 }

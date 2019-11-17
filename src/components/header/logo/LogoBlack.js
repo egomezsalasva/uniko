@@ -1,5 +1,6 @@
 //Library Imports
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 //Style Imports
 import * as sharedStyles from '../../../data/sharedStyles'
@@ -16,11 +17,13 @@ const LogoStyle = styled.img`
 `
 
 //Main Component
-function LogoBlack(props) {
+function LogoBlack() {
   return (
-    <React.Fragment>
+    <>
+    <Link to="/">
       <LogoStyle src={logoBlack} />
-    </React.Fragment>
+    </Link>
+    </>
   );
 }
 

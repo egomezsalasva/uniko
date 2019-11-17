@@ -1,13 +1,15 @@
 //Library Imports
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 //Style Imports
 import * as sharedStyles from '../../data/sharedStyles'
 //Data Imports
 import MODEL_DB from '../../data/MODEL_DB'
-import SubMenuModelsGrid from './SubMenuModelGrid';
-import LogoBlack from '../header/logo/LogoBlack';
+//Component Import
+import LogoBlack from '../header/logo/LogoBlack'
+import SubMenuModelsGrid from './SubMenuModelGrid'
+import FooterFrame from './FooterFrame'
 
 
 const ModelGridStyle = styled.div`
@@ -52,41 +54,41 @@ const ModelNameCardStyle = styled.h3`
 
 
 //Main Component
-class ModelGridMaleTimeless extends Component {
-    render(){
+function ModelGridMaleTimeless() {
 
-        let MODEL_DB_MALE_ALL = MODEL_DB.filter( model => {
-            return model.gender === "male"
-        })
+    let MODEL_DB_MALE_ALL = MODEL_DB.filter( model => {
+        return model.gender === "male"
+    })
 
-        let MODEL_DB_MALE_TIMELESS = MODEL_DB_MALE_ALL.filter( model => {
-            return model.timeless === true
-        })
+    let MODEL_DB_MALE_TIMELESS = MODEL_DB_MALE_ALL.filter( model => {
+        return model.timeless === true
+    })
 
-        return (
-            <>
-            <LogoBlack />
-            <SubMenuModelsGrid activeMaleState="true" />
-            <ModelGridStyle>
-                {MODEL_DB_MALE_TIMELESS.map( (model, i) => {
-                    const whiteSpaceRegEx = / /g;
-                    let modelSrc = model.name.replace(whiteSpaceRegEx, "-").toLowerCase()
-                    const firstName = model.name.split(" ")[0]
-                    const surName = model.name.split(" ").slice(1).join(' ')
-                    return (
-                        <ModelCardStyle key={i}>
-                            <ModelNameCardStyle>{firstName}<br/>{surName}</ModelNameCardStyle>
-                            <ImageCardStyle 
-                                src= {require(`../../assets/images/models/${modelSrc}/profile/0@2x.jpg`)}
-                                alt = "Profile Image"
-                            />
-                        </ModelCardStyle>
-                    )
-                })}
-            </ModelGridStyle>
-            </>
-        );
-    }
+    return (
+        <>
+        <LogoBlack />
+        <SubMenuModelsGrid activeMaleState="true" />
+        <ModelGridStyle>
+            {MODEL_DB_MALE_TIMELESS.map( (model, i) => {
+                
+                let MODEL_LINKNAME = model.linkName
+                const MODEL_NAME = model.firstName
+                const MODEL_SURNAME = model.surname
+
+                return (
+                    <ModelCardStyle key={i}>
+                        <ModelNameCardStyle>{MODEL_NAME}<br/>{MODEL_SURNAME}</ModelNameCardStyle>
+                        <ImageCardStyle 
+                            src= {require(`../../assets/images/models/${MODEL_LINKNAME}/profile/0@2x.jpg`)}
+                            alt = "Profile Image"
+                        />
+                    </ModelCardStyle>
+                )
+            })}
+        </ModelGridStyle>
+        <FooterFrame />
+        </>
+    )
 }
 
 

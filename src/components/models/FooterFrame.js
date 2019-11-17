@@ -1,5 +1,5 @@
 //Library Imports
-import React, {Component, Fragment} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 //Style Imports
 import * as sharedStyles from '../../data/sharedStyles'
@@ -16,14 +16,12 @@ const FooterFrameStyle = styled.div`
 `
 
 //Main Component
-class FooterFrame extends Component {
-    render(){
-        return (
-            <Fragment>
-                <FooterFrameStyle />
-            </Fragment>
-        );
-    }
+function FooterFrame() {
+    return (
+        <>
+        <FooterFrameStyle />
+        </>
+    );
 }
 
 

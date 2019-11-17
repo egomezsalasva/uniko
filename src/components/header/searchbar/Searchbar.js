@@ -196,6 +196,7 @@ class Searchbar extends Component {
                         {/* Directory Index Container */}
                         <DirectoryIndexContainerStyle>
                             <DirectoryIndexInnerContainerStyle>
+                                {/* //TODO: Map profile photo to follow cursor on hover */}
                                 {filteredModelDB.map(function(model, i){
                                     return <ListOfNamesLinkStyle to={`/modelos/${model.name.replace(whiteSpaceRegEx, "-").toLowerCase()}`} key={i}>
                                                 <ListOfNamesStyle>

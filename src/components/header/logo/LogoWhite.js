@@ -16,12 +16,12 @@ const LogoStyle = styled.img`
 `
 
 //Main Component
-function LogoWhite(props) {
+function LogoWhite() {
   return (
-    <React.Fragment>
-      <LogoStyle src={logoWhite} />
-    </React.Fragment>
-  );
+    <>
+    <LogoStyle src={logoWhite} />
+    </>
+  )
 }
 
 
