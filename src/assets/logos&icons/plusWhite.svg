@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
-    <title>Combined Shape Copy</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="HomeModel05V4" transform="translate(-49.000000, -149.000000)" fill="#FCFCFC">
-            <path d="M63,161 L74.5,161 L74.5,163 L63,163 L63,174.5 L61,174.5 L61,163 L49.5,163 L49.5,161 L61,161 L61,149.5 L63,149.5 L63,161 Z" id="Combined-Shape-Copy"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Directory-02" transform="translate(-1368.000000, -93.000000)" fill="#FCFCFC">
+            <g id="Group" transform="translate(1368.000000, 93.000000)">
+                <rect id="Rectangle" x="10" y="0" width="2" height="22"></rect>
+                <rect id="Rectangle" transform="translate(11.000000, 11.000000) rotate(90.000000) translate(-11.000000, -11.000000) " x="10" y="0" width="2" height="22"></rect>
+            </g>
         </g>
     </g>
 </svg>
