@@ -18,12 +18,15 @@ const w90px = "6.25vw"
 const w100px = "7.8125vw"
 const w120px = "9.375vw"
 const w150px = "11.71875vw"
+const w180px = "12.5vw"
 const w260px = "18.0555556vw"
 const w400px = "27.7777778vw"
 const w410px = "28.4722222vw"
 const w420px = "29.1666667vw"
 const w430px = "33.59375vw"
 const w445px = "30.9027778vw"
+const w470px = "32.6388889vw"
+const w490px = "34.0277778vw"
 const w570px = "39.5833333vw"
 const w820px = "56.9444444vw"
 const w840px = "58.3333333vw"
@@ -88,7 +91,7 @@ const zBlackLogo = 3000;
 export { 
     unikoBlack, unikoWhite, unikoGrey, unikoPlaceholderBoxGrey,
 
-    w10px, w20px, w40px, w50px, w60px, w70px, w90px, w100px, w120px, w150px, w260px, w400px, w410px, w420px, w430px, w445px, w570px, w820px, w840px, w1320px, w1360px,
+    w10px, w20px, w40px, w50px, w60px, w70px, w90px, w100px, w120px, w150px, w180px, w260px, w400px, w410px, w420px, w430px, w445px, w470px, w490px, w570px, w820px, w840px, w1320px, w1360px,
 
     h10px, h20px, h30px, h35px, h40px, h50px, h60px, h70px, h80px, h90px, h100px, h110px, h120px, h130px, h160px, h170px, h190px, h210px, h230px, h240px, h320px, h618px,
 

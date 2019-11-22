@@ -17,6 +17,7 @@ import ModelGridMaleCurvy from './components/models/ModelGridMaleCurvy'
 import ModelGridMaleTimeless from './components/models/ModelGridMaleTimeless'
 import InnerModel from './pages/InnerModel'
 import BecomeAModel from './pages/BecomeAModel'
+import AboutUs from './pages/AboutUs'
 import Footer from './components/footer/Footer';
 import FourOFour from './pages/FourOFour'
 
@@ -50,10 +51,10 @@ function App(){
             {/* 
               <Route path="/noticias/" component={Noticias} />
               <Route path="/noticias/:id" component={Articulo} />
-              <Route path="/sobre-nosotros/" component={Contacto#sobre-nosotros} />
               <Route path="/contacto/" component={Contacto#contacto} />
               <Route path="/terminos-y-condiciones/" component={TerminosYCondiciones} />
             */}
+            <Route path="/sobre-nosotros/" component={AboutUs} />
             <Route component={FourOFour} />
           </Switch>
 

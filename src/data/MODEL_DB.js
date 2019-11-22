@@ -293,32 +293,7 @@ const MODEL_DB_UNORDERED = [
         hip: 99,
         shoe: 43,
         //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
+        agencyPhotos: 2,
         //Links
         instagramLink: "https://www.instagram.com/albanwurm/",
     },
@@ -452,32 +427,7 @@ const MODEL_DB_UNORDERED = [
         hip: 90,
         shoe: 39,
         //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
+        agencyPhotos: 5,
         //Links
         instagramLink: "https://www.instagram.com/aliciaherrenreich/",
     },
@@ -611,32 +561,7 @@ const MODEL_DB_UNORDERED = [
         hip: 92,
         shoe: 40,
         //Photos
-        profilePhoto: "",
-        agencyPhotos: [
-            "",
-            "",
-            "",
-        ],
-        press: [
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-                pressVideos: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                clientName: "",
-                pressPhotos: [
-                    "",
-                    "",
-                ],
-            },
-        ],
+        agencyPhotos: 2,
         //Links
         instagramLink: "https://www.instagram.com/amaka.ae",
     },

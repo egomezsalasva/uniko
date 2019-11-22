@@ -3,7 +3,8 @@ import React, { useState, useEffect,  useRef } from 'react'
 import { useParams, Link } from "react-router-dom"
 import styled from 'styled-components'
 import { TimelineMax } from 'gsap/all'
-import find from 'find'
+import * as fs from 'fs-web'
+//import fs from 'fs'
 //Style Imports
 import * as sharedStyles from '../data/sharedStyles'
 //Data Imports
@@ -180,20 +181,16 @@ function InnerModels(props) {
 
     //SLIDER 
 
-    find.file(`../assets/images/models//alicia-herrenriech/agency`, function(files) {
-        console.log(files.length);
-    })
+    const MODEL_AGENCYPHOTOSLENGTH = CURRENT_MODEL_SELEC.agencyPhotos //TODO: Manage to read the number of files in directory (Backend)
 
+    //Initialize list
+    const sliderPhotosList = []
+    //Push requires to sliderPhotosList array
+    for (let i = 0; i < MODEL_AGENCYPHOTOSLENGTH; i++) {
+        sliderPhotosList.push(`../assets/images/models/${MODEL_SRC}/agency/${i}@2x.jpg`);
+    }
+        
 
-
-    const sliderPhotosList = [
-        require(`../assets/images/models/${MODEL_SRC}/agency/0@2x.jpg`),
-        require(`../assets/images/models/${MODEL_SRC}/agency/1@2x.jpg`),
-        require(`../assets/images/models/${MODEL_SRC}/agency/2@2x.jpg`),
-        // require(`../assets/images/models/${MODEL_SRC}/agency/3@2x.jpg`),
-        // require(`../assets/images/models/${MODEL_SRC}/agency/4@2x.jpg`),
-        // require(`../assets/images/models/${MODEL_SRC}/agency/5@2x.jpg`),
-    ]
 
     const [slideLeftIndex, setSlideLeftIndex] = useState(0)
     const [slideRightIndex, setSlideRightIndex] = useState(1)
