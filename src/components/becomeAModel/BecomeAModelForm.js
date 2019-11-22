@@ -1,9 +1,13 @@
 //Library Imports
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { useFormik } from 'formik'
 //Style Imports
 import * as sharedStyles from '../../data/sharedStyles'
+//Component Imports
+import ShortTextInput from '../../components/becomeAModel/FormInputs/ShortTextInput'
+import LongTextInput from '../../components/becomeAModel/FormInputs/LongTextInput'
+import ShortEmailInput from '../../components/becomeAModel/FormInputs/ShortEmailInput'
 
 
 //Styles
@@ -11,6 +15,7 @@ const BecomeAModelFormContainerStyle = styled.div`
     position: absolute;
     top: ${sharedStyles.h190px};
     left: ${sharedStyles.w570px};
+    left: 550px;
     width: ${sharedStyles.w420px};
 `
 const BecomeAModelFormTitleStyle = styled.h3`
@@ -26,51 +31,44 @@ const BecomeAModelFormTitleStyle = styled.h3`
 const BecomeAModelFormStyle = styled.form`
     width: ${sharedStyles.w840px};
 `
-const NameFormInputStlye = styled.input`
+const GenderInput = styled.input`
+   width: 0.1px;
+   height: 0.1px;
+   position: absolute;
+   z-index: -100;
+`
+const GenderBoxLabel = styled.label`
     display: inline-block;
-    margin-top: ${sharedStyles.h40px};
-    width: ${sharedStyles.w400px};
-    height: ${sharedStyles.h40px};
-    height: 36px;
-    border: 0;
-    border-bottom: 1px solid ${sharedStyles.unikoBlack};
-    background-color: transparent;
-    outline: none;
-    font-family: "Gotham-Book";
-    font-size: 12px;
-    color: ${sharedStyles.unikoBlack};
-    text-transform: uppercase;
-    margin-top: ${sharedStyles.h10px};
-    margin-right: ${sharedStyles.w20px};
-    padding-left: 10px;
-    &:first-of-type{
-        margin-top: ${sharedStyles.h20px}; 
-    }
+    width: 20px;
+    height: 20px;
+    border: 1px ${sharedStyles.unikoBlack} solid;
+    transform: translateY(4px);
 `
-const AddressFormInputStyle = styled(NameFormInputStlye)`
-    margin-top: ${sharedStyles.h10px};
-    width: ${sharedStyles.w820px};
+const FemaleGenderBoxLabel = styled(GenderBoxLabel)`
+    background: ${props => props.femaleLabelActive ? `${sharedStyles.unikoBlack}` : "transparent" };
 `
-const GenderFormInputStlye = styled.input`
- 
+const MaleGenderBoxLabel = styled(GenderBoxLabel)`
+    background: ${props => props.maleLabelActive ? `${sharedStyles.unikoBlack}` :  "transparent" };
 `
-const GenderFormLabelStlye = styled.label`
+const GenderLabel = styled.label`
+    display: inline-block;
     font-family: "Gotham-Book";
     font-size: 16px;
     color: ${sharedStyles.unikoBlack};
     text-transform: uppercase;
+    margin-left: 5px;
+    transform: translateX(3px);
+    margin-right: 20px;
 `
+
 const ArchivosFormInputStyle = styled.input`
-    width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 `
 const ArchivosFormLabelStyle = styled.label`
     display: inline-block;
-    width: 200px;
+    width: 180px;
     height: 40px;
     border: 1px solid ${sharedStyles.unikoBlack};
     font-family: 'Gotham-Book';
@@ -80,49 +78,79 @@ const ArchivosFormLabelStyle = styled.label`
     text-transform: uppercase;
     text-align: center;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 10px;
 `
-const NameFormErrorStyle = styled.span`
-    display: inline-block;
+const RangeFormInputStyle = styled.input`
+    display: block;
+    background: red;
+    width: 400px;
+    margin-top: 30px;
+`
+const RangeFormValueStyle = styled.div`
     font-family: "Gotham-Book";
-    font-size: 12px;
-    color: #747474;
-    font-style: italic;
-    padding-top: 10px;
-    padding-right: 10px;
-    width: ${sharedStyles.w400px};
-    text-align: right;
+    font-size: 16px;
+    color: ${sharedStyles.unikoBlack};
+    line-height: 20px;
+    margin-top: 20px;
 `
+const SubmitButtonStyle = styled.button`
+    width: 200px;
+    height: 40px;
+    background: ${sharedStyles.unikoBlack};
+    margin-top: 20px;
+    outline: none;
+    color: ${sharedStyles.unikoWhite};
+    font-family: "Gotham-Book";
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+`
+// const NameFormErrorStyle = styled.span`
+//     display: inline-block;
+//     font-family: "Gotham-Book";
+//     font-size: 12px;
+//     color: #747474;
+//     font-style: italic;
+//     padding-top: 10px;
+//     padding-right: 10px;
+//     width: ${sharedStyles.w400px};
+//     text-align: right;
+// `
 
 
 // A custom validation function. This must return an object
 // which keys are symmetrical to our values/initialValues
-const validate = values => {
-    const errors = {};
-    if (!values.nombre) {
-      errors.nombre = 'Required';
-    } else if (values.nombre.length > 15) {
-      errors.nombre = 'Must be 15 characters or less';
-    }
+// const validate = values => {
+//     const errors = {};
+//     if (!values.nombre) {
+//       errors.nombre = 'Required';
+//     } else if (values.nombre.length > 15) {
+//       errors.nombre = 'Must be 15 characters or less';
+//     }
   
-    if (!values.apellidos) {
-      errors.apellidos = 'Required';
-    } else if (values.apellidos.length > 20) {
-      errors.apellidos = 'Must be 20 characters or less';
-    }
+//     if (!values.apellidos) {
+//       errors.apellidos = 'Required';
+//     } else if (values.apellidos.length > 20) {
+//       errors.apellidos = 'Must be 20 characters or less';
+//     }
   
-    if (!values.email) {
-      errors.email = 'Required';
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-      errors.email = 'Invalid email address';
-    }
+//     if (!values.email) {
+//       errors.email = 'Required';
+//     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+//       errors.email = 'Invalid email address';
+//     }
   
-    return errors;
-};
+//     return errors;
+// };
 
 
 //Main Component
 function BecomeAModelForm() {
+
+    // const [loading, setLoading] = useState(false)
+
+    const [femaleLabelActive, setFemaleLabelActive] = useState(true)
+    const [maleLabelActive, setMaleLabelActive] = useState(false)
 
     const formik = useFormik({
         initialValues: {
@@ -135,15 +163,24 @@ function BecomeAModelForm() {
             email: '',
             fechaDeNacimient: '',
             instagram: '',
-            genero: '',
-            archivos: '',
+            genero: 'female',
+            archivos: null,
+            height: 160,
         },
-        validate,
+        //validate,
         onSubmit: values => {
             alert(JSON.stringify(values, null, 2));
         },
     });
 
+    const femaleLabelClickHandler = () => {
+        setFemaleLabelActive(true)
+        setMaleLabelActive(false)
+    }
+    const maleLabelClickHandler = () => {
+        setFemaleLabelActive(false)
+        setMaleLabelActive(true)
+    }
 
     return (            
         <BecomeAModelFormContainerStyle>
@@ -152,74 +189,65 @@ function BecomeAModelForm() {
 
 
                 <BecomeAModelFormTitleStyle>Datos de contacto</BecomeAModelFormTitleStyle>
-                <NameFormInputStlye 
+                <ShortTextInput 
                     id="nombre"
                     name="nombre"
-                    type="text"
                     onChange={formik.handleChange}
-                    value={formik.values.firstName}
+                    value={formik.values.nombre}
                     placeholder="NOMBRE"
                 />
-                <NameFormInputStlye 
+                <ShortTextInput 
                     id="apellidos"
                     name="apellidos"
-                    type="text"
                     onChange={formik.handleChange}
                     value={formik.values.apellidos}
                     placeholder="APELLIDOS"
                 />
-                <AddressFormInputStyle 
+                <LongTextInput
                     id="direccion"
                     name="direccion"
-                    type="text"
                     onChange={formik.handleChange}
                     value={formik.values.direccion}
                     placeholder="DIRECCIÓN COMPLETA"
                 />
-                <NameFormInputStlye
+                <ShortTextInput
                     id="codigoPostal"
                     name="codigoPostal"
-                    type="text"
                     onChange={formik.handleChange}
                     value={formik.values.codigoPostal}
                     placeholder="CODIGO POSTAL"
                 />
-                <NameFormInputStlye
+                <ShortTextInput
                     id="ciudad"
                     name="ciudad"
-                    type="text"
                     onChange={formik.handleChange}
                     value={formik.values.ciudad}
                     placeholder="CIUDAD"
                 />
-                <NameFormInputStlye
+                <ShortTextInput
                     id="telefono"
                     name="telefono"
-                    type="text"
                     onChange={formik.handleChange}
                     value={formik.values.telefono}
                     placeholder="TELÉFONO"
                 />
-                <NameFormInputStlye
+                <ShortEmailInput
                     id="email"
                     name="email"
-                    type="email"
                     onChange={formik.handleChange}
                     value={formik.values.email}
                     placeholder="EMAIL"
                 />
-                <NameFormInputStlye 
+                <ShortTextInput 
                     id="fechaDeNacimiendo"
                     name="fechaDeNacimiendo"
-                    type="text"
                     onChange={formik.handleChange}
                     value={formik.values.fechaDeNacimient}
                     placeholder="FECHA DE NACIMIENTO"
                 />
-                <NameFormInputStlye
+                <ShortTextInput
                     id="instagram"
                     name="instagram"
-                    type="text"
                     onChange={formik.handleChange}
                     value={formik.values.instagram}
                     placeholder="INSTAGRAM"
@@ -227,25 +255,45 @@ function BecomeAModelForm() {
 
 
                 <BecomeAModelFormTitleStyle>Datos Personales</BecomeAModelFormTitleStyle>
-                <GenderFormInputStlye 
-                    id="genero"
-                    name="genero"
-                    type="radio"  
-                    value="female"
-                    onChange={formik.handleChange}
-                    value={formik.values.genero}
-                />  
-                <GenderFormLabelStlye for="female">Female</GenderFormLabelStlye>
 
-                <GenderFormInputStlye
-                    id="genero"
-                    name="genero"
-                    type="radio"  
-                    value="male"
-                    onChange={formik.handleChange}
-                    value={formik.values.genero}
+                <GenderInput 
+                    id="female"
+                    name="gender" 
+                    type="radio" 
+                    checked={formik.values.genero === "female"}
+                    onChange={() => formik.setFieldValue("genero", "female")}
+                    
                 />
-                <GenderFormLabelStlye for="male">Male</GenderFormLabelStlye>
+                {/* Make container label tag */}
+                <FemaleGenderBoxLabel 
+                    femaleLabelActive={femaleLabelActive} 
+                    for="female"
+                    onClick={femaleLabelClickHandler}
+                />
+                <GenderLabel 
+                    for="female"
+                    onClick={femaleLabelClickHandler}
+                >Female</GenderLabel>
+                {/*  */}
+
+                <GenderInput   
+                    id="male"
+                    name="gender"
+                    type="radio"
+                    checked={formik.values.genero === "male"}
+                    onChange={() => formik.setFieldValue("genero", "male")}
+                />
+                {/* Make container label tag */}
+                <MaleGenderBoxLabel 
+                    maleLabelActive={maleLabelActive} 
+                    for="male"
+                    onClick={maleLabelClickHandler}
+                />
+                <GenderLabel 
+                    for="male"
+                    onClick={maleLabelClickHandler}
+                >Male</GenderLabel>
+                {/*  */}
 
 
                 <ArchivosFormInputStyle 
@@ -258,9 +306,20 @@ function BecomeAModelForm() {
                 />
                 <ArchivosFormLabelStyle for="archivos">Archivos +</ArchivosFormLabelStyle>
 
-                <input type="range" id="age" />
+
+                <RangeFormInputStyle 
+                    id="height"
+                    type="range"
+                    min="160" 
+                    max="210"
+                    value={formik.values.height} 
+                    step="1"
+                    onChange={formik.handleChange}
+                />
+                <RangeFormValueStyle>{formik.values.height}cm</RangeFormValueStyle>
                 
-                <button type="submit">Submit</button>
+
+                <SubmitButtonStyle type="submit">Enviar</SubmitButtonStyle>
 
             </BecomeAModelFormStyle>
             

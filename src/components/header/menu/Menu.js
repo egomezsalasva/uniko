@@ -153,7 +153,13 @@ function Menu(){
                     </NavItemStyle>
 
                     <NavItemStyle className="navItemStaggerTweenRef">
-                        <NavLinkStyle to="/sobre-nosotros/" >Sobre Nosotros</NavLinkStyle>
+                        <NavLinkStyle 
+                            to="/sobre-nosotros/" 
+                            onClick={ menuClickTween }
+                            exact
+                        >
+                            Sobre Nosotros
+                        </NavLinkStyle>
                     </NavItemStyle>
 
                     <NavItemStyle className="navItemStaggerTweenRef">
