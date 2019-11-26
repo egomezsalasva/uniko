@@ -3,16 +3,16 @@ import React from 'react'
 //Component Imports
 import LogoBlack from '../components/header/logo/LogoBlack'
 //Import Component
-import About from '../components/aboutUs/About'
+import ContactComp from '../components/contact/ContactComp'
 
 
 //Main Component
-function AboutUs() {
+function Contact() {
     return (
         <>
         <LogoBlack/>
         
-        <About/>  
+        <ContactComp/>  
 
         </>
     )
@@ -20,4 +20,4 @@ function AboutUs() {
 
 
 //Export
-export default AboutUs;
+export default Contact;
