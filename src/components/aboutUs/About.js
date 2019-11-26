@@ -8,6 +8,11 @@ import * as sharedStyles from '../../data/sharedStyles'
 //Image Imports
 import instagramIcon from '../../assets/logos&icons/instagramWhite.svg'
 import vimeoIcon from '../../assets/logos&icons/vimeoWhite.svg'
+import teamPhoto from '../../assets/images/about/shutterstock.jpg'
+import ejemplo1 from '../../assets/images/about/ejemplo1.jpg'
+import ejemplo2 from '../../assets/images/about/ejemplo2.jpg'
+import ejemplo3 from '../../assets/images/about/ejemplo3.jpg'
+import ejemplo4 from '../../assets/images/about/ejemplo4.jpg'
 
 
 
@@ -79,14 +84,44 @@ const ContactButtonStyle = styled.p`
     margin-left: 10px;
     cursor: pointer;
 `
+
+const RightAboutContainerStyle = styled.div`
+    width: 50vw;
+    height: 100vh;
+    background: red;
+    position:absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+`
+const TeamPhotoStyle = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+`
+
+
+
+
+
 const ContactContainerStyle = styled.div`
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+`
+const OverflowContainerStyle = styled.div`
     width: 50vw;
     height: 100vh;
     position: absolute;
     top: 0;
     right: -50vw;
     bottom: 0;
-    background: ${sharedStyles.unikoBlack};
+    background: ${sharedStyles.unikoBlack};   
 `
 const ContactTitleStyle = styled.h2`
     font-family: 'Gotham-Bold';
@@ -235,7 +270,7 @@ const SubscribeNewsletterLineStyle = styled.div`
 function  TeamTab(props) {
     return(
         <>
-        <TeamTabContainerStyle>
+        <TeamTabContainerStyle onMouseEnter= { props.mouseEnterHandler } onMouseLeave= { props.mouseLeaveHandler }>
             <NameTeamTabStyle>{props.name}</NameTeamTabStyle>
             <TextTeamTabStyle>
                 {props.title} <br/>
@@ -251,16 +286,34 @@ function  TeamTab(props) {
 //Main Component
 function About() {
 
+    const [photoSource, setPhotoSrc] = useState(teamPhoto);
+
     // reference to the DOM node
-    let contactModalRef = useRef(null)
+    let aboutModalRef = useRef(null)
 
     // reference to the animation
-    const [contactModalTween] = useState(new TimelineMax({ paused: true, reversed: true }));
+    const [aboutModalTween] = useState(new TimelineMax({ paused: true, reversed: true }));
 
     //Animation
     useEffect( () => {
-        contactModalTween.to( contactModalRef, 0.4, { right: "0" })
-    }, [contactModalTween])
+        aboutModalTween.to( aboutModalRef, 0.4, { right: "0" })
+    }, [aboutModalTween])
+
+    const photoOneHandler = () => {
+        setPhotoSrc(ejemplo1)
+    }
+    const photoTwoHandler = () => {
+        setPhotoSrc(ejemplo2)
+    }
+    const photoThreeHandler = () => {
+        setPhotoSrc(ejemplo3)
+    }
+    const photoFourHandler = () => {
+        setPhotoSrc(ejemplo4)
+    }
+    const teamPhotoHandler = () => {
+        setPhotoSrc(teamPhoto)
+    }
 
 
     return (
@@ -274,64 +327,96 @@ function About() {
                 <LineStyle/>
 
                 <TeamContainerStyle>
-                <TeamTab name="Nacho Dopico" title="OWNER & DIRECTOR" phone="(+34) 625 473 497" email="nacho@unikomodels.com"/>
-                    <TeamTab name="Maximiliano Urnezius" title="HEAD BOOKER" phone="(+34) 654 321 060"email="maxi@unikomodels.com"/>
-                    {/* <TeamTab name="Claudia Amate" title="BOOKER" phone="(+34) 626 818 537" email="claudia@unikomodels.com"/>
-                    <TeamTab name="Silvia Arenas" title="ART DEPARTMENT" phone="(+34) 931 400 372" email="art@unikomodels.com"/> */}
-                    <TeamTab name="Cristina Guillen" title="OWNER & SCOUT" phone="(+34) 647 644 638" email="cris@unikomodels.com"/>
-                    <TeamTab name="Patrick Staal" title="OWNER & SCOUT" phone="(+34) 686 303 426" email="patrick@unikomodels.com"/>
-                    {/* <TeamTab name="Dolors Puig" title="ACCOUNTING" phone="(+34) 931 400 372" email="accounting@unikomodels.com"/> */}
+                    <TeamTab 
+                        name="Nacho Dopico" 
+                        title="OWNER & DIRECTOR" 
+                        phone="(+34) 625 473 497" 
+                        email="nacho@unikomodels.com"
+                        mouseEnterHandler={photoOneHandler}
+                        mouseLeaveHandler={teamPhotoHandler}
+                    />   
+                    <TeamTab 
+                        name="Maximiliano Urnezius" 
+                        title="HEAD BOOKER" 
+                        phone="(+34) 654 321 060"
+                        email="maxi@unikomodels.com"
+                        mouseEnterHandler={photoTwoHandler}
+                        mouseLeaveHandler={teamPhotoHandler}
+                    />
+                    <TeamTab 
+                        name="Cristina Guillen" 
+                        title="OWNER & SCOUT" 
+                        phone="(+34) 647 644 638" 
+                        email="cris@unikomodels.com"
+                        mouseEnterHandler={photoThreeHandler}
+                        mouseLeaveHandler={teamPhotoHandler}
+                    />
+                    <TeamTab 
+                        name="Patrick Staal" 
+                        title="OWNER & SCOUT" 
+                        phone="(+34) 686 303 426" 
+                        email="patrick@unikomodels.com"
+                        mouseEnterHandler={photoFourHandler}
+                        mouseLeaveHandler={teamPhotoHandler}
+                    />
+                    
                 </TeamContainerStyle>
 
-                <ContactButtonStyle onClick={() =>{ contactModalTween.play()}}>Contact</ContactButtonStyle>
+                <ContactButtonStyle onClick={() =>{ aboutModalTween.play()}}>Contact</ContactButtonStyle>
 
             </ContentContainerStyle>
-        </LeftAboutContainerStyle> 
+        </LeftAboutContainerStyle>
 
-        <ContactContainerStyle ref={div => { contactModalRef = div }}>
-            <ContentContainerStyle>
-                <ContactTitleStyle>Contacta Con Nosotros</ContactTitleStyle>
-                <LineWhiteStyle/>
-                    <ContainerDetailContactStyle>
-                        <ContactDetailsTextStyle>
-                            Tel: (+34) 931 400 372 <br/>
-                            Email: info@unikomodels.com
-                        </ContactDetailsTextStyle>
-                        <MapsTextStyle href="https://www.google.com/maps/place/Carrer+de+Pallars,+84,+3a,+08018+Barcelona/@41.3947098,2.1877848,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a31bee2fb19d:0xf0d880f8627deb3e!8m2!3d41.3947098!4d2.1899735" target="_blank">
-                            Carrer de Pallars, 84-86, 2º, 3ª <br/> 
-                            08018 Barcelona
-                        </MapsTextStyle>
-                    </ContainerDetailContactStyle>
-                    <SocialsContactContainerStyle>
-                        <SocialLinkStyle href="https://www.instagram.com/unikomodels/" target="_blank"><SocialIconStyle src={instagramIcon} /></SocialLinkStyle>
-                        <SocialLinkStyle href="https://vimeo.com/user17343918" target="_blank"><SocialIconStyle src={vimeoIcon} /></SocialLinkStyle>
-                    </SocialsContactContainerStyle>
-                <LineWhiteStyle/>
+        <RightAboutContainerStyle>
+            <TeamPhotoStyle src={photoSource}/>
+        </RightAboutContainerStyle> 
 
-                <SubscribeContactContainerStyle>
+        <ContactContainerStyle >
+            <OverflowContainerStyle ref={div => { aboutModalRef = div }}>
+                <ContentContainerStyle>
+                    <ContactTitleStyle>Contacta Con Nosotros</ContactTitleStyle>
+                    <LineWhiteStyle/>
+                        <ContainerDetailContactStyle>
+                            <ContactDetailsTextStyle>
+                                Tel: (+34) 931 400 372 <br/>
+                                Email: info@unikomodels.com
+                            </ContactDetailsTextStyle>
+                            <MapsTextStyle href="https://www.google.com/maps/place/Carrer+de+Pallars,+84,+3a,+08018+Barcelona/@41.3947098,2.1877848,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a31bee2fb19d:0xf0d880f8627deb3e!8m2!3d41.3947098!4d2.1899735" target="_blank">
+                                Carrer de Pallars, 84-86, 2º, 3ª <br/> 
+                                08018 Barcelona
+                            </MapsTextStyle>
+                        </ContainerDetailContactStyle>
+                        <SocialsContactContainerStyle>
+                            <SocialLinkStyle href="https://www.instagram.com/unikomodels/" target="_blank"><SocialIconStyle src={instagramIcon} /></SocialLinkStyle>
+                            <SocialLinkStyle href="https://vimeo.com/user17343918" target="_blank"><SocialIconStyle src={vimeoIcon} /></SocialLinkStyle>
+                        </SocialsContactContainerStyle>
+                    <LineWhiteStyle/>
 
-                    <SubscribeFooterTitleStyle>Suscríbete</SubscribeFooterTitleStyle>
+                    <SubscribeContactContainerStyle>
 
-                    <SubscribeTsCsContainerStyle>
-                        <SubscribeTsCsTextStyle>
-                            Suscríbete a nuestra newsletter<br/>
-                            Pero antes, es imprescindible  que aceptes los <Link to="/terminos-y-condiciones/"><span>Términos y Condiciones</span></Link>
-                        </SubscribeTsCsTextStyle>
-                        <SubscribeTsCsCheckboxStyle type="checkbox" id="termsAndConditions" name="termsAndConditions" value="termsAndConditions" /> 
-                    </SubscribeTsCsContainerStyle>
+                        <SubscribeFooterTitleStyle>Suscríbete</SubscribeFooterTitleStyle>
+
+                        <SubscribeTsCsContainerStyle>
+                            <SubscribeTsCsTextStyle>
+                                Suscríbete a nuestra newsletter<br/>
+                                Pero antes, es imprescindible  que aceptes los <Link to="/terminos-y-condiciones/"><span>Términos y Condiciones</span></Link>
+                            </SubscribeTsCsTextStyle>
+                            <SubscribeTsCsCheckboxStyle type="checkbox" id="termsAndConditions" name="termsAndConditions" value="termsAndConditions" /> 
+                        </SubscribeTsCsContainerStyle>
 
 
-                    <SubscribeNewsletterCointainerStyle>
-                        <SubscribeNewsletterEmailInputStyle  type="email" pattern=".+@globex.com" id="email" size="30" placeholder="Escribe aquí tu email" required />
-                        <SubscribeNewsletterButtonStyle type="submit" >ENVIAR</SubscribeNewsletterButtonStyle>
-                        <SubscribeNewsletterLineStyle></SubscribeNewsletterLineStyle>
-                    </SubscribeNewsletterCointainerStyle>
+                        <SubscribeNewsletterCointainerStyle>
+                            <SubscribeNewsletterEmailInputStyle  type="email" pattern=".+@globex.com" id="email" size="30" placeholder="Escribe aquí tu email" required />
+                            <SubscribeNewsletterButtonStyle type="submit" >ENVIAR</SubscribeNewsletterButtonStyle>
+                            <SubscribeNewsletterLineStyle></SubscribeNewsletterLineStyle>
+                        </SubscribeNewsletterCointainerStyle>
 
-                </SubscribeContactContainerStyle>
+                    </SubscribeContactContainerStyle>
 
-                <TeamButtonStyle onClick={() =>{ contactModalTween.reverse()}}>Team</TeamButtonStyle>
+                    <TeamButtonStyle onClick={() =>{ aboutModalTween.reverse()}}>Team</TeamButtonStyle>
 
-            </ContentContainerStyle>
+                </ContentContainerStyle>
+            </OverflowContainerStyle>
         </ContactContainerStyle>
 
 
