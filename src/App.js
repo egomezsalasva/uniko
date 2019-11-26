@@ -18,6 +18,7 @@ import ModelGridMaleTimeless from './components/models/ModelGridMaleTimeless'
 import InnerModel from './pages/InnerModel'
 import BecomeAModel from './pages/BecomeAModel'
 import AboutUs from './pages/AboutUs'
+import Contact from './pages/Contact'
 import Footer from './components/footer/Footer';
 import FourOFour from './pages/FourOFour'
 
@@ -47,14 +48,14 @@ function App(){
             {/* Inner Models */}
             <Route path="/models/:modelUrlId" component={InnerModel} />
             {/* Become A Model */}
-            <Route path="/become-a-model/" component={BecomeAModel} />
+            <Route path="/become-a-model" component={BecomeAModel} />
             {/* 
               <Route path="/noticias/" component={Noticias} />
               <Route path="/noticias/:id" component={Articulo} />
-              <Route path="/contacto/" component={Contacto#contacto} />
               <Route path="/terminos-y-condiciones/" component={TerminosYCondiciones} />
             */}
-            <Route path="/sobre-nosotros/" component={AboutUs} />
+            <Route path="/sobre-nosotros" component={AboutUs} />
+            <Route path="/contacto" component={Contact} />
             <Route component={FourOFour} />
           </Switch>
 
